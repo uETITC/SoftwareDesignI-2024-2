@@ -12,19 +12,19 @@
 <tr>
 <td>
 
-| **Evaluación** |  **Date** |
+| **Period** |  **Date** |
 |:--------------:|:----------:|
-|    1st Period   | 12/09/2024 |
-|    2nd Period  | 21/10/2024 |
+|    First   | 12/09/2024 |
+|    Second  | 21/10/2024 |
 |  Final  | 28/11/2024 |
 
 </td>
 <td>
   
-|   **Proyecto**  |  **Fecha** | **Procentage** |
+|   **Presentation**  |  **Date** | **Porcentage** |
 |:---------------:|:----------:|:--------------:|
-| Primera Entrega | 16/09/2024 |      30 %      |
-|  Entrega Final  | 02/12/2024 |      70 %      |
+| First | 16/09/2024 |      30 %      |
+|  Final  | 02/12/2024 |      70 %      |
   
 </td>
 </tr>
