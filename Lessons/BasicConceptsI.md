@@ -23,7 +23,7 @@ Hay muchas definiciones de diseño de software, cada una con un enfoque diferent
 En la práctica, el proceso de diseño consiste esencialmente en tomar decisiones. *¿Usamos una lista o una pila? ¿Qué servicios debe ofrecer esta interfaz? ¿Dónde debe gestionarse el error?* Considerar el diseño como una toma de decisiones nos lleva al concepto de **espacio de diseño**. Un espacio de diseño puede imaginarse como un espacio geométrico n-dimensional en el que cada dimensión corresponde a un atributo de calidad del diseño. Los atributos típicos de la calidad del diseño de software son la *comprensibilidad*, la *reutilización* y la *facilidad de implementación*. Dentro de este espacio de diseño, cada decisión de diseño específica (o conjunto coherente de decisiones) corresponde a una coordenada en el espacio que representa la consecuencia de la decisión.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/prmr/SoftwareDesign/master/modules/figures/m01-DesignSpace.png" alt="Sublime's custom image" width=90%/>
+  <img src="https://raw.githubusercontent.com/prmr/SoftwareDesign/master/modules/figures/m01-DesignSpace.png" alt="Sublime's custom image" width=80%/>
 </p>
 
 Otros factor importante esw la *robustez* (resistencia a los errores).
