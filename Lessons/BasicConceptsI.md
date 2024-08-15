@@ -12,11 +12,11 @@ Entender los conceptos fundamentales del diseño de software, incluyendo la defi
 
 Hay muchas definiciones de diseño de software, cada una con un enfoque diferente. La palabra *diseño* es a la vez verbo y sustantivo, lo que aumenta la ambigüedad, ya que puede referirse tanto a un proceso (diseñar) como al resultado de este proceso (un diseño). La definición práctica de diseño de software (el proceso) es *la construcción de abstracciones de datos y computación y la organización de estas abstracciones en una aplicación de software funcional*. Al principio puede parecer demasiado restrictivo, pero si tenemos en cuenta todo lo que puede significar el término abstracción (variables, clases, objetos, etc.), vemos que tenemos bastante flexibilidad para interpretar lo que significa el diseño de software.
 
-<center>
+<div align="center">
 
 [![Software Design](https://img.youtube.com/vi/Fi3_BjVzpqk/hqdefault.jpg)](https://www.youtube.com/watch?v=Fi3_BjVzpqk)
 
-</center>
+</div>
 
 #### Espacio de Diseño
 
