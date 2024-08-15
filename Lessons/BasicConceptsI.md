@@ -31,11 +31,11 @@ Otros factor importante esw la *robustez* (resistencia a los errores).
 ### 1.2 ¿Qué es un modelo?
 Un modelo es una representación abstracta y simplificada de un sistema o proceso real. Los modelos se utilizan para entender, analizar y predecir el comportamiento de sistemas complejos sin necesidad de trabajar directamente con el sistema real.
 
-<center>
+<div align="center">
 
 [![Software Design](https://img.youtube.com/vi/uWuNfhDvZz8/hqdefault.jpg)](https://www.youtube.com/watch?v=uWuNfhDvZz8)
 
-</center>
+</div>
 
 
 - **Ejemplo**: En Java, una clase que representa una entidad del mundo real, como un `Empleado`, es un modelo. Contiene atributos como `nombre`, `edad`, `salario`, y métodos para manipular estos datos.
@@ -74,11 +74,11 @@ El diseño de software es el proceso de definir la arquitectura, los componentes
 ### 1.4 ¿Qué es un sistema?
 Un sistema es un conjunto de componentes interrelacionados que trabajan juntos para lograr un objetivo común. En informática, un sistema puede ser un conjunto de software y hardware que interactúan para realizar una tarea específica.
 
-<center>
+<div align="center">
 
 [![Software Design](https://img.youtube.com/vi/Fd-zhGXgHUs/hqdefault.jpg)](https://www.youtube.com/watch?v=Fd-zhGXgHUs)
 
-</center>
+</div>
 
 - **Ejemplo**: Un sistema de gestión de inventarios en un almacén, que incluye bases de datos, aplicaciones de software y dispositivos de hardware.
 
