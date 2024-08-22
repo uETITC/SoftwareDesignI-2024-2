@@ -5,6 +5,7 @@
 ## Lectures
 
 [1. Basic Concepts I](./Lessons/BasicConceptsI.md)
+
 [2. Basic Concepts II](./Lessons/BasicConceptsII.md)
 
 ## Objective 
