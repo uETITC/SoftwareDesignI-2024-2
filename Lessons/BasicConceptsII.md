@@ -69,7 +69,7 @@ Proporcionar a los estudiantes una comprensión profunda de la complejidad inher
 [Types of Computer Language](https://www.educba.com/types-of-computer-language/)
 
 <div align="center">
-  <img src="./images/high.png" alt="HTML tutorial" style="width:60%">
+  <img src="./images/high.png" alt="HTML tutorial" style="width:40%">
 </div>
 <div align="center">
 
@@ -81,7 +81,7 @@ Proporcionar a los estudiantes una comprensión profunda de la complejidad inher
 
 
 <div align="center">
-  <img src="./images/classification.png" alt="HTML tutorial" style="width:80%">
+  <img src="./images/classification.png" alt="HTML tutorial" style="width:60%">
 </div>
 [Evolution and History of Programming Languages](https://www.slideserve.com/hbosley/evolution-and-history-of-programming-languages-powerpoint-ppt-presentation)
 
@@ -164,11 +164,11 @@ El diseño de software es una tarea intrínsecamente compleja, ya que implica la
 ### Complejidad Organizada y Desorganizada
 
 <div align="center">
-    <img src="./images/herarquia.png" alt="HTML tutorial" style="width:90%">
+    <img src="./images/herarquia.png" alt="HTML tutorial" style="width:70%">
 </div>
 
 <div align="center">
-    <img src="./images/canonical.png" alt="HTML tutorial" style="width:90%">
+    <img src="./images/canonical.png" alt="HTML tutorial" style="width:70%">
   </div>
 
 ## 4. Herramientas para el Manejo de la Complejidad en el Diseño de Software
