@@ -57,12 +57,20 @@ At the end of the course the student will be able to:
 
 For all periods the grade is divided into: Co-evaluation (10 %), self-evaluation (10 %), and teacher evaluation (80 %) which is divided into exams (50 %) and assignments (30 %). The first and second periods are 35 % of the final grade, while for the last period it is 30 %. In the first and second periods the exam consists of two tests: one practical (40 %) and the other theoretical (60 %). 
 
-**Optional:** If you complete a course related to software design from:
+>[!IMPORTANT]
+>**Optional:** If you complete a course related to software design from:
+>
+>- [Coursera](https://www.coursera.org/)
+>- [Udemy](https://www.udemy.com/)
+>
+>You can change or improve a note at the end of the course.
 
-- [Coursera](https://www.coursera.org/)
-- [Udemy](https://www.udemy.com/)
+## Projects
 
-You can change or improve a note at the end of the course.
+- [Chatbot/Agent](https://github.com/soulcastou/chatbot) - Daniel Sanders
+- [ETITC Workers Attedence](https://github.com/Brayanfranco97/Asistencia-trabajadores-ETITC) - Brayan Franco
+- [ETITC Parking](https://github.com/BRAYAM23) - Brayam Sierra
+- [ETITC Restaurante](https://github.com/camila2perez) - Laura Puentes
 
 ## References:
 
