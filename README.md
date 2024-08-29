@@ -8,6 +8,10 @@
 
 [2. Basic Concepts II](./Lessons/2.%20BasicConceptsII.md)
 
+[3. Software Engineering](./Lessons/3.%20SoftwareEngineering.md)
+
+[4. Software Development Methods](./Lessons/4.%20SoftwareDevelopmentMethods.md)
+
 ## Objective 
 
 To enable students to understand and apply the fundamental principles of software design in application development. This includes software modeling, the use of constraint diagrams, and the application of good design practices using appropriate tools and technologies.
