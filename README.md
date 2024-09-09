@@ -14,6 +14,8 @@
 
 [5. Oriented Objects Design](./Lessons/5.%20ObjectOriented.md)
 
+[6. Design Patterns](./Lessons/6.%20DesignPatterns.md)
+
 ## Objective 
 
 To enable students to understand and apply the fundamental principles of software design in application development. This includes software modeling, the use of constraint diagrams, and the application of good design practices using appropriate tools and technologies.
