@@ -20,6 +20,10 @@
 
 [7. UML Diagrams](./Lessons/7.%20UML.md)
 
+## Exams
+
+[First Exam](./Lessons/Exams/FirstExam.md) - Solution
+
 ## Objective 
 
 To enable students to understand and apply the fundamental principles of software design in application development. This includes software modeling, the use of constraint diagrams, and the application of good design practices using appropriate tools and technologies.
@@ -35,9 +39,6 @@ At the end of the course the student will be able to:
 
 **RAC 3.** Use appropriate tools and technologies for software design, representing models of applications to be developed and comparing design applications to determine their performance, ease of use, and level of upgradability.
 
-## Lessons
-
-- [Basic Concepts I](./Lessons/BasicConceptsI.md)
 
 ## Grades
 
