@@ -4,6 +4,8 @@
 
 ## Lectures
 
+[Project Guidelines](./Lessons/ProjectGuideLines.md)
+
 [1. Basic Concepts I](./Lessons/1.%20BasicConceptsI.md)
 
 [2. Basic Concepts II](./Lessons/2.%20BasicConceptsII.md)
@@ -15,6 +17,8 @@
 [5. Oriented Objects Design](./Lessons/5.%20ObjectOriented.md)
 
 [6. Design Patterns](./Lessons/6.%20DesignPatterns.md)
+
+[7. UML Diagrams](./Lessons/7.%20UML.md)
 
 ## Objective 
 
