@@ -20,6 +20,10 @@
 
 [7. UML Diagrams](./Lessons/7.%20UML.md)
 
+[8. UML Objects](./Lessons/8.%20UML%20-%20Objects.md)
+
+[9. UML Workshop](./Lessons/9.%20UMLWorkshop.md)
+
 ## Exams
 
 [First Exam](./Lessons/Exams/FirstExam.md) - Solution
