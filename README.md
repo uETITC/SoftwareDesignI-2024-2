@@ -24,6 +24,8 @@
 
 [9. UML Workshop](./Lessons/9.%20UMLWorkshop.md)
 
+[10. UML - Use Cases](./Lessons/10.%20UML%20-%20UseCase.md)
+
 ## Exams
 
 [First Exam](./Lessons/Exams/FirstExam.md) - Solution
@@ -32,8 +34,7 @@
 
 To enable students to understand and apply the fundamental principles of software design in application development. This includes software modeling, the use of constraint diagrams, and the application of good design practices using appropriate tools and technologies.
 
-
-#### Subject Learning Results (RAC)
+## Subject Learning Results (RAC)
 
 At the end of the course the student will be able to:
 
@@ -42,7 +43,6 @@ At the end of the course the student will be able to:
 **RAC 2.** Apply good design practices to the development of software applications, using UML diagrams to represent design principles.
 
 **RAC 3.** Use appropriate tools and technologies for software design, representing models of applications to be developed and comparing design applications to determine their performance, ease of use, and level of upgradability.
-
 
 ## Grades
 
