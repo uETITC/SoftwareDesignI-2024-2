@@ -26,6 +26,10 @@
 
 [10. UML - Use Cases](./Lessons/10.%20UML%20-%20UseCase.md)
 
+[11. UML Workshop](./Lessons/11.%20UML%20-%20WorkshopII.md)
+
+[12. UML - Activities](./Lessons/11.%20UML%20-%20Activities.md)
+
 ## Exams
 
 [First Exam](./Lessons/Exams/FirstExam.md) - Solution
