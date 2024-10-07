@@ -28,7 +28,8 @@
 
 [11. UML Workshop](./Lessons/11.%20UML%20-%20WorkshopII.md)
 
-[12. UML - Activities](./Lessons/11.%20UML%20-%20Activities.md)
+[12. UML - Activities](./Lessons/12.%20UML-Activities.md)
+
 
 ## Exams
 
