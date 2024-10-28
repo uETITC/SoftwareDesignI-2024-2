@@ -33,7 +33,9 @@
 
 ## Exams
 
-[First Exam](./Lessons/Exams/FirstExam.md) - Solution
+[First](./Lessons/Exams/First.md)
+
+[Second](./Lessons/Exams/Second.md)
 
 ## Objective 
 
