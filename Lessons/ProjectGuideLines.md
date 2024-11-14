@@ -56,6 +56,9 @@
      - **Objetivo**: Crear los diagramas UML que describen el sistema, y aplicar los patrones de diseño apropiados para cada componente o interacción.
      - **Entregable**: Diagramas UML (casos de uso, clases, secuencia, estados, etc.) y un documento explicando la aplicación de los patrones de diseño.
    
+>[!NOTE]
+>Hasta aquí va la segunda entrega. Recuerden que el reporte debe estar en el repositorio del proyecto y TODOS deben participar activamente. En esta entrega deben tener los diagramas de clases, objetos, casos de uso, y de actividades para el problema asignado.
+
    - **Fase 4: Implementación (opcional)**
      - **Objetivo**: Implementar una solución mínima viable (MVP) del sistema diseñado, asegurando la correcta implementación de los patrones y la arquitectura seleccionada.
      - **Entregable**: Código fuente (si es necesario) y manual técnico.
