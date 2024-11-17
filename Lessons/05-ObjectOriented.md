@@ -1,46 +1,7 @@
 # Diseño Orientado a Objetos
-
----
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Diseño Orientado a Objetos](#diseño-orientado-a-objetos)
-  - [Objetivo](#objetivo)
-  - [1. Definición del Diseño Orientado a Objetos](#1-definición-del-diseño-orientado-a-objetos)
-    - [Concepto Básico](#concepto-básico)
-    - [Objetos](#objetos)
-    - [Clases](#clases)
-    - [Historia y Evolución](#historia-y-evolución)
-      - [Generaciones y Estructuras](#generaciones-y-estructuras)
-    - [Importancia en el Desarrollo de Software](#importancia-en-el-desarrollo-de-software)
-    - [Ventajas del Diseño OO:](#ventajas-del-diseño-oo)
-  - [2. Propiedades del Diseño Orientado a Objetos](#2-propiedades-del-diseño-orientado-a-objetos)
-    - [Encapsulamiento](#encapsulamiento)
-    - [Abstracción](#abstracción)
-    - [Modularidad](#modularidad)
-    - [Polimorfismo](#polimorfismo)
-  - [3. Mecanismos de Herencia en el Diseño Orientado a Objetos](#3-mecanismos-de-herencia-en-el-diseño-orientado-a-objetos)
-    - [Definición y Propósito de la Herencia](#definición-y-propósito-de-la-herencia)
-    - [Tipos de Herencia](#tipos-de-herencia)
-    - [Implementación de la Herencia en Java](#implementación-de-la-herencia-en-java)
-    - [Problemas y Buenas Prácticas en la Herencia](#problemas-y-buenas-prácticas-en-la-herencia)
-  - [4. Ejemplo Práctico en Java](#4-ejemplo-práctico-en-java)
-    - [Modelado de un Sistema de Gestión de Vehículos](#modelado-de-un-sistema-de-gestión-de-vehículos)
-    - [Implementación del Ejemplo en Java](#implementación-del-ejemplo-en-java)
-  - [5. Conclusión](#5-conclusión)
-  - [Referencias](#referencias)
-
-<!-- /code_chunk_output -->
-
-
----
-
 ## Objetivo
 
 Al finalizar esta clase, los estudiantes comprenderán los principios fundamentales del diseño orientado a objetos (OO), las propiedades clave que caracterizan este enfoque, y los mecanismos de herencia utilizados para crear jerarquías de clases en sistemas de software. Además, podrán aplicar estos conceptos en ejemplos prácticos usando Java.
-
 
 ## 1. Definición del Diseño Orientado a Objetos
 
@@ -48,33 +9,56 @@ Al finalizar esta clase, los estudiantes comprenderán los principios fundamenta
 
 El Diseño Orientado a Objetos (OO) es un enfoque de desarrollo de software que organiza el diseño del sistema en torno a "objetos," que son instancias de "clases." Estos objetos encapsulan datos y comportamientos relacionados, y se comunican entre sí mediante métodos.
 
-<div align="center">
-
-[![Interpreted vs Compiled](https://img.youtube.com/vi/pTB0EiLXUC8/hqdefault.jpg)](https://www.youtube.com/watch?v=pTB0EiLXUC8)
-
-</div>
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/pTB0EiLXUC8?si=oJSD02ENYkF4dtHz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 ### Objetos
 
-<div align="center">
-  <img src="./images/objects.png" width=80%>
-</div>
+:::{figure} ../../images/objects.png
+---
+width: 70% 
+name: objeto
+---
+Características de un objeto. 
+:::
 
+::::{grid}
 
-<div align="center">
-  <img src="./images/roles1.png" width=80%>
-</div>
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+```{figure} ../../images/roles1.png
+---
+width: 100% 
+name:
+---
+Comportamiento de los objetos.
+```
+:::
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+```{figure} ../../images/roles.png
+---
+width: 100% 
+name: cliclovidaobjetos
+---
+Ciclo de vida de los objetos.
+```
+:::
+::::
 
-
-<div align="center">
-  <img src="./images/roles.png" width=80%>
-</div>
 
 ### Clases
 
-<div align="center">
-  <img src="./images/class.png" width=80%>
-</div>
+:::{figure} ../../images/class.png
+---
+width: 70% 
+name:
+---
+Ilustración de la definición de una clase.
+:::
 
 
 ### Historia y Evolución
@@ -86,25 +70,41 @@ El diseño orientado a objetos surgió en la década de 1960 con lenguajes como 
   - ALGOL 58  &emsp;&nbsp;  &emsp; Mathematical expressions
   - Flowmatic &emsp;&nbsp;&nbsp; &emsp; Mathematical expressions
   - IPL V &emsp; &emsp; &emsp; &emsp; Mathematical expressions
-  <div align="center">
-    <img src="./images/topology1.png" width=80%>
-  </div>
+  
+:::{figure} ../../images/topology1.png
+---
+width: 80% 
+name:
+---
+
+:::
+
 - Second-generation languages (1959–1961)
   - FORTRAN II &emsp;&emsp; Subroutines, separate compilation
   - ALGOL 60 &emsp;&emsp; &emsp;Block structure, data types
   - COBOL &emsp;&emsp; &emsp; &emsp;Data description, file handling
   - Lisp &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;List processing, pointers, garbage collection
-  <div align="center">
-    <img src="./images/topology2.png" width=80%>
-  </div>
+:::{figure} ../../images/topology2.png
+---
+width: 80% 
+name:
+---
+
+:::
+
 - Third-generation languages (1962–1970)
   - PL/1 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; FORTRAN + ALGOL + COBOL
   - ALGOL 68 &emsp;&emsp; &emsp; Rigorous successor to ALGOL 60
   - Pascal &emsp;&emsp;&emsp;&emsp; &emsp;Simple successor to ALGOL 60
   - Simula &emsp;&emsp;&emsp;&emsp;&emsp; Classes, data abstraction
-  <div align="center">
-    <img src="./images/topology3.png" width=80%>
-  </div>
+:::{figure} ../../images/topology3.png
+---
+width: 80% 
+name:
+---
+
+:::
+
 - The generation gap (1970–1980)
 Many different languages were invented, but few endured. However, the following are worth noting:
   - C &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;Efficient; small executables
@@ -124,14 +124,22 @@ Many different languages were invented, but few endured. However, the following 
   - Visual C# &emsp; &emsp; &emsp; &emsp; Java competitor for the Microsoft .NET
   Framework
   - Visual Basic .NET &emsp; Visual Basic for the Microsoft .NET Framework
+  
+:::{figure} ../../images/topology4.png
+---
+width: 80% 
+name:
+---
 
-<div align="center">
-  <img src="./images/topology4.png" width=80%>
-</div>
+:::
 
-<div align="center">
-  <img src="./images/topology5.png" width=80%>
-</div>
+:::{figure} ../../images/topology5.png
+---
+width: 80% 
+name:
+---
+
+:::
 
 ### Importancia en el Desarrollo de Software
 El enfoque orientado a objetos facilita el diseño de sistemas complejos al promover la reutilización de código, la modularidad y la claridad en la estructura del software. Este enfoque es crucial para construir sistemas escalables, mantenibles y fáciles de entender.
@@ -147,24 +155,32 @@ El enfoque orientado a objetos facilita el diseño de sistemas complejos al prom
 ### Encapsulamiento
 El encapsulamiento es el proceso de ocultar los detalles internos de un objeto y exponer solo lo necesario a través de una interfaz pública. Esto se logra mediante el uso de modificadores de acceso (público, privado, protegido) en las clases de Java.
 
-<div align="center">
-  <img src="./images/encapsulation.png" width=80%>
-</div>
+:::{figure} ../../images/encapsulation.png
+---
+width: 80% 
+name: encapsulamiento
+---
+Ilustración.
+:::
 
 ### Abstracción
 La abstracción permite a los desarrolladores centrarse en lo esencial, ignorando los detalles complejos que no son relevantes en un contexto particular. Las clases abstractas e interfaces en Java ayudan a lograr la abstracción.
-
-<div align="center">
-  <img src="./images/abstraction0.png" width=80%>
-</div>
-
-
+:::{figure} ../../images/abstraction0.png
+---
+width: 80% 
+name: abstraccion
+---
+Ilustración.
+:::
 ### Modularidad
 La modularidad divide el software en partes manejables, llamadas "módulos" o "clases", que pueden desarrollarse, probarse y mantener de forma independiente.
-
-<div align="center">
-  <img src="./images/modularity.png" width=80%>
-</div>
+:::{figure} ../../images/modularity.png
+---
+width: 80% 
+name: modularidad
+---
+Ilustración.
+:::
 
 ### Polimorfismo
 El polimorfismo permite que un objeto se comporte de diferentes maneras según el contexto. En Java, se implementa mediante la sobrecarga de métodos y la implementación de interfaces.
@@ -174,14 +190,34 @@ El polimorfismo permite que un objeto se comporte de diferentes maneras según e
 ### Definición y Propósito de la Herencia
 La herencia es un mecanismo que permite que una clase (subclase o clase hija) herede atributos y métodos de otra clase (superclase o clase padre). Esto facilita la reutilización de código y la creación de jerarquías de clases que reflejan relaciones "es-un" (is-a) en el mundo real.
 
-<div align="center">
-  <img src="./images/subclass.png" width=80%>
-</div>
 
+::::{grid}
 
-<div align="center">
-  <img src="./images/abstraction.png" width=60%>
-</div>
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 7
+
+```{figure} ../../images/subclass.png
+---
+width: 100% 
+name:
+---
+Ilustración de la herencia.
+```
+:::
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 5
+
+```{figure} ../../images/abstraction.png
+---
+width: 80% 
+name:
+---
+Ilustración de la jerarquia.
+```
+:::
+::::
 
 ### Tipos de Herencia
 - **Herencia Simple:** Una clase hereda de una única superclase.
@@ -286,7 +322,6 @@ class Coche extends Vehiculo {
 El diseño orientado a objetos es una herramienta poderosa para crear sistemas de software robustos y mantenibles. A través de la encapsulación, la abstracción, la modularidad y el polimorfismo, los desarrolladores pueden construir soluciones flexibles y escalables. La herencia, cuando se usa adecuadamente, permite la reutilización efectiva del código y la creación de estructuras jerárquicas que reflejan las relaciones naturales en el sistema. Sin embargo, es importante usar la herencia con cuidado y considerar alternativas como la composición cuando sea más apropiado. El dominio de estos conceptos permitirá a los estudiantes diseñar e implementar software de alta calidad en Java. 
 
 
-## Referencias
+## Recursos Adicionales
 
-- Grady Booch, Robert A. Maksimchuk, Michael W. Engel, Bobbi J. Young, Jim Conallen, Kelli A. Houston. *Object-Oriented Analysis and Design with Applications*. Addison-Wesley (2007), Tercera edición.
 - [Fundamental Concepts of Object Oriented Programming](https://www.youtube.com/watch?v=m_MQYyJpIjg)

@@ -1,12 +1,4 @@
-# Primer Parcial
-
-- [Primer Parcial](#primer-parcial)
-  - [Tema del Parcial](#tema-del-parcial)
-  - [Contexto](#contexto)
-  - [Objetivo](#objetivo)
-  - [Problema a Resolver](#problema-a-resolver)
-  - [Evaluación](#evaluación)
-
+# Primero
 
 ## Tema del Parcial
 

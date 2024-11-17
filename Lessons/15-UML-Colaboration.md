@@ -1,4 +1,4 @@
-# Diagramas de Colaboración/Comunicación en UML
+# Diagramas de Colaboración / Comunicación
 
 ## Introducción
 
@@ -10,7 +10,9 @@ En esta clase, exploraremos los aspectos más importantes de los diagramas de co
 
 Un **diagrama de colaboración** en UML es un diagrama de interacción que ilustra cómo los objetos en un sistema interactúan para lograr una funcionalidad. A diferencia de los **diagramas de secuencia**, los diagramas de colaboración se enfocan más en la estructura organizativa de los objetos, resaltando sus relaciones y la forma en que colaboran en lugar del orden exacto en que ocurren las interacciones.
 
-<iframe width="80%" height="315" src="https://www.youtube.com/embed/TL4ABTx_RtE?si=Id6aTxu5oF6Ptd9G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/TL4ABTx_RtE?si=Id6aTxu5oF6Ptd9G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Colaboración vs Secuencia
 
@@ -121,11 +123,7 @@ Archivo markdown con la descripción y diagrama de comunicación.
 
 Los diagramas de colaboración son herramientas valiosas para visualizar cómo los objetos colaboran entre sí en un sistema. A través de estos diagramas, los desarrolladores pueden entender y diseñar de forma clara las interacciones necesarias para cumplir con ciertos requisitos. Además, estos diagramas permiten a los diseñadores de software identificar relaciones y dependencias entre objetos, lo cual es clave para el diseño de software eficaz y orientado a objetos.
 
-## Referencias
-
-### Libros
-
-- Booch, G., Rumbaugh, J., & Jacobson, I. (2005). **The Unified Modeling Language User Guide**. Addison-Wesley.
+## Recursos Adicionales
 
 ### Guías y Tutoriales
 

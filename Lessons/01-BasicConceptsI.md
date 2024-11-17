@@ -1,10 +1,7 @@
-# Fundamentos del Diseño de Software I
-
----
+# Definiciones Básicas
 
 ## Objetivo
 Entender los conceptos fundamentales del diseño de software, incluyendo la definición de modelos, sistemas, y sistemas de información. Se discutirá la importancia del diseño de software, los problemas comunes que se enfrentan, y se explorarán ejemplos prácticos en Java para ilustrar estos conceptos.
-
 
 ## 1. Definiciones Básicas
 
@@ -13,18 +10,20 @@ Entender los conceptos fundamentales del diseño de software, incluyendo la defi
 Hay muchas definiciones de diseño de software, cada una con un enfoque diferente. La palabra *diseño* es a la vez verbo y sustantivo, lo que aumenta la ambigüedad, ya que puede referirse tanto a un proceso (diseñar) como al resultado de este proceso (un diseño). La definición práctica de diseño de software (el proceso) es *la construcción de abstracciones de datos y computación y la organización de estas abstracciones en una aplicación de software funcional*. Al principio puede parecer demasiado restrictivo, pero si tenemos en cuenta todo lo que puede significar el término abstracción (variables, clases, objetos, etc.), vemos que tenemos bastante flexibilidad para interpretar lo que significa el diseño de software.
 
 <div align="center">
-
-[![Software Design](https://img.youtube.com/vi/Fi3_BjVzpqk/hqdefault.jpg)](https://www.youtube.com/watch?v=Fi3_BjVzpqk)
-
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/Fi3_BjVzpqk?si=M1YVD593uuyEb8b0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 #### Espacio de Diseño
 
 En la práctica, el proceso de diseño consiste esencialmente en tomar decisiones. *¿Usamos una lista o una pila? ¿Qué servicios debe ofrecer esta interfaz? ¿Dónde debe gestionarse el error?* Considerar el diseño como una toma de decisiones nos lleva al concepto de **espacio de diseño**. Un espacio de diseño puede imaginarse como un espacio geométrico n-dimensional en el que cada dimensión corresponde a un atributo de calidad del diseño. Los atributos típicos de la calidad del diseño de software son la *comprensibilidad*, la *reutilización* y la *facilidad de implementación*. Dentro de este espacio de diseño, cada decisión de diseño específica (o conjunto coherente de decisiones) corresponde a una coordenada en el espacio que representa la consecuencia de la decisión.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/prmr/SoftwareDesign/master/modules/figures/m01-DesignSpace.png" alt="Sublime's custom image" width=80%/>
-</p>
+:::{figure} https://raw.githubusercontent.com/prmr/SoftwareDesign/master/modules/figures/m01-DesignSpace.png
+---
+width: 70%
+name: soluciones
+---
+Soluciones posibles vs aceptables.
+:::
 
 Otros factor importante esw la *robustez* (resistencia a los errores).
 
@@ -32,15 +31,15 @@ Otros factor importante esw la *robustez* (resistencia a los errores).
 Un modelo es una representación abstracta y simplificada de un sistema o proceso real. Los modelos se utilizan para entender, analizar y predecir el comportamiento de sistemas complejos sin necesidad de trabajar directamente con el sistema real.
 
 <div align="center">
-
-[![Software Design](https://img.youtube.com/vi/uWuNfhDvZz8/hqdefault.jpg)](https://www.youtube.com/watch?v=uWuNfhDvZz8)
-
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/uWuNfhDvZz8?si=Sn84iK8dcXXYiRKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+:::{admonition} Ejemplo
+:class: tip
+En Java, una clase que representa una entidad del mundo real, como un `Empleado`, es un modelo. Contiene atributos como `nombre`, `edad`, `salario`, y métodos para manipular estos datos.
+:::
 
-- **Ejemplo**: En Java, una clase que representa una entidad del mundo real, como un `Empleado`, es un modelo. Contiene atributos como `nombre`, `edad`, `salario`, y métodos para manipular estos datos.
-
-```java
+:::{java}
 public class Empleado {
     private String nombre;
     private int edad;
@@ -62,55 +61,71 @@ public class Empleado {
     public double getSalario() { return salario; }
     public void setSalario(double salario) { this.salario = salario; }
 }
-```
+:::
 
-Complemento: [What is a Model? ](https://www.youtube.com/watch?v=OKA4_J5yeoU)
 
 ### 1.3 ¿Qué es diseño de software?
 El diseño de software es el proceso de definir la arquitectura, los componentes, las interfaces y otros aspectos de un sistema de software. Este proceso es crucial para garantizar que el software sea eficiente, mantenible y cumpla con los requisitos del usuario.
 
-- **Ejemplo**: Diseñar un sistema que gestione las operaciones de una biblioteca. Aquí, el diseño incluye la definición de las clases `Libro`, `Usuario`, `Préstamo`, y sus interacciones.
+:::{admonition} Ejemplo
+:class: tip
+Diseñar un sistema que gestione las operaciones de una biblioteca. Aquí, el diseño incluye la definición de las clases `Libro`, `Usuario`, `Préstamo`, y sus interacciones.
+:::
 
 ### 1.4 ¿Qué es un sistema?
 Un sistema es un conjunto de componentes interrelacionados que trabajan juntos para lograr un objetivo común. En informática, un sistema puede ser un conjunto de software y hardware que interactúan para realizar una tarea específica.
 
 <div align="center">
-
-[![Software Design](https://img.youtube.com/vi/Fd-zhGXgHUs/hqdefault.jpg)](https://www.youtube.com/watch?v=Fd-zhGXgHUs)
-
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/Fd-zhGXgHUs?si=1xtg14wwqY8ln32T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-- **Ejemplo**: Un sistema de gestión de inventarios en un almacén, que incluye bases de datos, aplicaciones de software y dispositivos de hardware.
+:::{admonition} Ejemplo
+:class: tip
+Un sistema de gestión de inventarios en un almacén, que incluye bases de datos, aplicaciones de software y dispositivos de hardware.
+:::
 
-Complemento: [Systems Thinking! ](https://www.youtube.com/watch?v=GPW0j2Bo_eY)
 
 ### 1.5 ¿Qué es un sistema de información?
 Un sistema de información es un tipo de sistema que recopila, procesa, almacena y distribuye información para apoyar la toma de decisiones y el control en una organización.
 
-- **Ejemplo**: Un sistema de gestión académica que maneja los datos de estudiantes, cursos, y calificaciones.
-
+:::{admonition} Ejemplo
+:class: tip
+Un sistema de gestión académica que maneja los datos de estudiantes, cursos, y calificaciones.
+:::
 
 ## 2. Problemas en el Diseño de Software
 
 ### 2.1 Complejidad
 El software es inherentemente complejo, y a medida que los sistemas crecen, su complejidad aumenta, lo que hace más difícil su mantenimiento y evolución.
 
-- **Ejemplo**: Un sistema de comercio electrónico que necesita integrar pasarelas de pago, gestión de inventarios, y servicio al cliente. La complejidad radica en garantizar que todos estos subsistemas funcionen correctamente y se integren bien.
+:::{admonition} Ejemplo
+:class: tip
+Un sistema de comercio electrónico que necesita integrar pasarelas de pago, gestión de inventarios, y servicio al cliente. La complejidad radica en garantizar que todos estos subsistemas funcionen correctamente y se integren bien.
+:::
 
 ### 2.2 Escalabilidad
 Diseñar software que pueda crecer en capacidad para manejar más usuarios, transacciones, o datos es un reto significativo.
 
-- **Ejemplo**: Un sitio web de noticias que debe manejar picos de tráfico durante eventos importantes. Si no está bien diseñado, el sistema podría fallar bajo alta carga.
+:::{admonition} Ejemplo
+:class: tip
+Un sitio web de noticias que debe manejar picos de tráfico durante eventos importantes. Si no está bien diseñado, el sistema podría fallar bajo alta carga.
+:::
 
 ### 2.3 Mantenibilidad
 El software debe ser fácil de modificar y mejorar. Un diseño deficiente puede llevar a un "código espagueti", donde el código está tan entrelazado que es difícil de entender y cambiar.
 
-- **Ejemplo**: Si el código de un sistema de nómina no está bien estructurado, agregar una nueva regla de cálculo de impuestos podría requerir cambios en múltiples lugares, aumentando el riesgo de errores.
+:::{admonition} Ejemplo
+:class: tip
+Si el código de un sistema de nómina no está bien estructurado, agregar una nueva regla de cálculo de impuestos podría requerir cambios en múltiples lugares, aumentando el riesgo de errores.
+:::
 
 ### 2.4 Seguridad
 Los sistemas de software deben estar diseñados para resistir ataques y proteger la integridad y confidencialidad de los datos.
 
-- **Ejemplo**: Un sistema bancario que debe proteger las transacciones financieras y los datos de los clientes frente a accesos no autorizados.
+:::{admonition} Ejemplo
+:class: tip
+Un sistema bancario que debe proteger las transacciones financieras y los datos de los clientes frente a accesos no autorizados.
+:::
 
 ### 2.5 Otros
 
@@ -119,14 +134,12 @@ Los sistemas de software deben estar diseñados para resistir ataques y proteger
 
 ## 3. Discusión 
 
-
 ¿Cómo influyen los problemas mencionados en el éxito de un proyecto de software? Reflexiona sobre un proyecto en el que has trabajado y cómo el diseño afectó el resultado.
 
 ## 4. Ejercicios
 
+::::{admonition} Taller 1
 ### 1. Identificación de Modelos en Sistemas Reales
-
-Objetivo: Reconocer y definir modelos en sistemas de software existentes.
 
 **Instrucciones:**
 
@@ -135,8 +148,10 @@ Objetivo: Reconocer y definir modelos en sistemas de software existentes.
 3. **Relacionar Clases:** Explica cómo estas clases interactúan entre sí dentro del sistema.
 4. **Diagrama UML:** Dibuja un diagrama UML de clases que represente el modelo.
 
-**Ejemplo**: Para una tienda en línea, las clases podrían ser `Producto`, `Cliente`, y `Orden`. Describe cómo `Cliente` puede realizar una `Orden` que contiene múltiples `Productos`.
-
+:::{admonition} Ejemplo
+:class: tip
+Para una tienda en línea, las clases podrían ser `Producto`, `Cliente`, y `Orden`. Describe cómo `Cliente` puede realizar una `Orden` que contiene múltiples `Productos`.
+:::
 
 ### 2. Problemas Comunes en el Diseño de Software
 
@@ -146,10 +161,6 @@ Lee un caso de estudio sobre un proyecto de software que enfrentó problemas deb
 - Identifica los problemas de diseño en el caso de estudio.
 - Propón soluciones alternativas que podrían haberse implementado.
 - Reflexiona sobre cómo estos problemas pueden evitarse en futuros proyectos.
-
-**Objetivo:**
-Reconocer y analizar problemas comunes en el diseño de software.
-
 
 ### 3.  Diseño de un Sistema de Información
 
@@ -161,9 +172,6 @@ Diseña un sistema de información para una pequeña biblioteca que permita gest
 - Describe cómo las clases interactuarán para gestionar un préstamo de libro.
 - Dibuja un diagrama UML para visualizar el sistema de información.
 
-**Objetivo:**
-Aplicar el concepto de sistema de información a un escenario realista y estructurado.
-
 #### 4. Análisis y Diseño de un Sistema
 
 Dado un conjunto de requisitos, diseña un sistema para gestionar un pequeño supermercado. El sistema debe permitir la gestión de productos, clientes, y ventas.
@@ -173,9 +181,8 @@ Dado un conjunto de requisitos, diseña un sistema para gestionar un pequeño su
 - Especifica las relaciones entre las clases.
 - Desarrolla un diagrama UML para representar el diseño del sistema.
 - Escribe pseudocódigo para un método que permita realizar una venta y actualizar el inventario.
+::::
 
-**Objetivo:**
-Ejercitar la capacidad de diseñar un sistema completo a partir de requisitos dados.
 
 ## Conclusión
 
@@ -187,13 +194,7 @@ Es esencial recordar que el diseño de software es un proceso iterativo, en el q
 
 Con este conocimiento como base, estarás mejor equipado para diseñar soluciones de software que no solo funcionen hoy, sino que también puedan crecer y adaptarse en el futuro.
 
+## Recursos Adicionales
 
-## Referencias
-
-- *Introduction to Software Design with Java*. Martin P. Robillard. Springer 2022, segunda edición.
-- [Java Programming: Principles of Software Design](https://www.coursera.org/learn/java-programming-design-principles)
-
-
----
-
-¿Hay algún tema específico que desees que profundicemos más o alguna pregunta sobre los ejemplos presentados?
+- [What is a Model? ](https://www.youtube.com/watch?v=OKA4_J5yeoU)
+- [Systems Thinking! ](https://www.youtube.com/watch?v=GPW0j2Bo_eY)

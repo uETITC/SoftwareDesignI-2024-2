@@ -1,29 +1,4 @@
-# Clase: Diagramas UML de Objetos
-
----
-- [Clase: Diagramas UML de Objetos](#clase-diagramas-uml-de-objetos)
-  - [Objetivo](#objetivo)
-  - [Diagrama de Objetos](#diagrama-de-objetos)
-    - [Definición](#definición)
-    - [Propiedades de los Diagramas de Objetos](#propiedades-de-los-diagramas-de-objetos)
-    - [Sintaxis de los Diagramas de Objetos](#sintaxis-de-los-diagramas-de-objetos)
-    - [Ejemplo Sintaxis UML de Objetos:](#ejemplo-sintaxis-uml-de-objetos)
-    - [Usos de los Diagramas de Objetos](#usos-de-los-diagramas-de-objetos)
-  - [Taller](#taller)
-    - [Instrucciones](#instrucciones)
-    - [Código Java](#código-java)
-    - [Tareas](#tareas)
-    - [Ejemplo de Diagrama de Objetos en UML](#ejemplo-de-diagrama-de-objetos-en-uml)
-      - [Instancias](#instancias)
-    - [Criterios de Evaluación](#criterios-de-evaluación)
-  - [Conclusión](#conclusión)
-  - [Referencias](#referencias)
-    - [Libros](#libros)
-    - [Guias y Tutoriales](#guias-y-tutoriales)
-    - [Diagramas](#diagramas)
-
-
----
+# Diagramas de Objetos
 
 ## Objetivo
 Entender los **Diagramas de Objetos** dentro del contexto de UML (Lenguaje de Modelado Unificado), su definición, propiedades, sintaxis, y los usos comunes en el diseño de software. Aprenderemos cómo representan instancias de clases en un momento específico y cómo son útiles para visualizar el estado de un sistema.
@@ -83,17 +58,20 @@ Los diagramas de objetos tienen varios usos clave en el diseño de software:
 4. **Documentación**: Se utilizan para documentar cómo debería funcionar el sistema bajo ciertas condiciones o escenarios.
 
 
-## Taller
+## Ejercicio
+
+::::{admonition} Taller 4
 
 ### Instrucciones
 1. **Entender el Código Java**: A continuación, se proporciona un fragmento de código Java. Debes analizar el código para identificar las instancias de las clases, sus atributos, y cómo se relacionan entre sí.
 2. **Crear el Diagrama de Objetos en UML**: Basado en las instancias creadas en el código, debes construir un diagrama de objetos en UML. Recuerda utilizar la sintaxis correcta para representar objetos y las relaciones entre ellos.
 3. **Explicar el Diagrama**: Una vez creado el diagrama, escribe una breve explicación del mismo, describiendo los objetos, atributos, y relaciones representadas.
 
-
-### Código Java
+:::{admonition} Código Java
+:class: dropdown
 
 ```java
+// Clase Cliente
 public class Cliente {
     private String nombre;
     private String email;
@@ -111,7 +89,7 @@ public class Cliente {
         return email;
     }
 }
-
+// Clase Producto
 public class Producto {
     private String nombreProducto;
     private double precio;
@@ -129,7 +107,7 @@ public class Producto {
         return precio;
     }
 }
-
+// Clase Pedido
 public class Pedido {
     private Cliente cliente;
     private Producto producto;
@@ -169,7 +147,7 @@ public class Pedido {
     }
 }
 ```
-
+:::
 
 ### Tareas
 
@@ -204,19 +182,16 @@ public class Pedido {
 2. **Sintaxis UML**: Se evaluará el uso correcto de la sintaxis UML, incluyendo la representación de objetos, atributos, y relaciones.
 3. **Explicación del Diagrama**: La explicación debe ser clara y coherente, describiendo adecuadamente las relaciones entre los objetos.
 
+::::
+
+
 ## Conclusión
 
 Los diagramas de objetos son una herramienta importante en UML que permiten ver el estado y las relaciones de las instancias de clases en un momento específico. Son útiles tanto en la fase de diseño como en la de desarrollo de software para visualizar y validar el comportamiento del sistema en tiempo de ejecución. Entender cómo funcionan los diagramas de objetos y cómo se relacionan con los diagramas de clases es fundamental para un correcto modelado orientado a objetos.
 
 
 
-## Referencias
-
-### Libros
-
-- Booch, G., Rumbaugh, J., & Jacobson, I. (2005). *The Unified Modeling Language User Guide*. Addison-Wesley.
-- Fowler, M. (2004). *UML Distilled: A Brief Guide to the Standard Object Modeling Language*. Addison-Wesley.
-- Larman, C. (2004). *Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development*. Prentice Hall.
+## Recursos Adicionales
 
 ### Guias y Tutoriales
 

@@ -1,29 +1,8 @@
-# Segundo Examen: Gestión de Animes en una Página Web 
+# Segundo
 
----
+## Tema del Parcial
 
-- [Segundo Examen: Gestión de Animes en una Página Web](#segundo-examen-gestión-de-animes-en-una-página-web)
-  - [Instrucciones](#instrucciones)
-  - [Contexto del Sistema](#contexto-del-sistema)
-  - [Requerimientos](#requerimientos)
-  - [Sección 1: Diagrama de Clases](#sección-1-diagrama-de-clases)
-    - [Requerimientos](#requerimientos-1)
-    - [Puntos Clave](#puntos-clave)
-  - [Sección 2: Diagrama de Objetos](#sección-2-diagrama-de-objetos)
-    - [Requerimientos](#requerimientos-2)
-    - [Puntos Clave](#puntos-clave-1)
-  - [Sección 3: Diagrama de Actividades](#sección-3-diagrama-de-actividades)
-    - [Requerimientos](#requerimientos-3)
-    - [Puntos Clave](#puntos-clave-2)
-  - [Sección 4: Diagrama de Casos de Uso](#sección-4-diagrama-de-casos-de-uso)
-    - [Requerimientos](#requerimientos-4)
-    - [Puntos Clave](#puntos-clave-3)
-  - [Sección 5: Código Java](#sección-5-código-java)
-    - [Código Java:](#código-java)
-  - [Entregables](#entregables)
-    - [Fin del Examen.](#fin-del-examen)
-
----
+Implementación de un Gestión de Animes en una Página Web.
 
 ## Instrucciones
 En este examen, se evaluará tu comprensión sobre la gestión de animes en un sistema web utilizando diferentes diagramas UML (clases, objetos, actividades, y casos de uso). Además, se te proporcionará un código en Java que deberás analizar, pero **no necesitas ejecutarlo**. Debes demostrar tu capacidad para interpretar el código, crear diagramas coherentes y entender cómo interactúan los elementos del sistema. Sigue las instrucciones paso a paso y asegúrate de cumplir con todos los requerimientos.

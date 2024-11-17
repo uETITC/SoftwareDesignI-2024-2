@@ -1,26 +1,4 @@
-# Diagramas UML: Diagramas de Casos de Uso
-
----
-
-- [Diagramas UML: Diagramas de Casos de Uso](#diagramas-uml-diagramas-de-casos-de-uso)
-  - [Introducción](#introducción)
-  - [Objetivos](#objetivos)
-  - [Definición](#definición)
-  - [Propiedades](#propiedades)
-  - [Sintaxis](#sintaxis)
-  - [Usos](#usos)
-  - [Ejemplo práctico en Java](#ejemplo-práctico-en-java)
-    - [Caso: Sistema de Biblioteca](#caso-sistema-de-biblioteca)
-    - [Código básico en Java para simular una interacción:](#código-básico-en-java-para-simular-una-interacción)
-    - [Diagrama de casos de uso:](#diagrama-de-casos-de-uso)
-  - [Ejercicio](#ejercicio)
-  - [Conclusión](#conclusión)
-  - [Referencias](#referencias)
-    - [Libros](#libros)
-    - [Guías y Tutoriales](#guías-y-tutoriales)
-
-
----
+# Diagramas de Casos de Uso
 
 ## Introducción
 
@@ -39,7 +17,7 @@ Un **diagrama de casos de uso** es una representación gráfica de las interacci
 
 <div align="center">
 
-[![Interpreted vs Compiled](https://img.youtube.com/vi/4emxjxonNRI/hqdefault.jpg)](https://www.youtube.com/watch?v=4emxjxonNRI)
+<iframe width="80%%" height="420px" src="https://www.youtube.com/embed/4emxjxonNRI?si=Qfhwi3YWRqgt0or_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 
@@ -56,19 +34,56 @@ Un **diagrama de casos de uso** es una representación gráfica de las interacci
 
 **Ejemplos**
 
-<div align="center">
-  <img src="https://cdn-images.visual-paradigm.com/guide/uml/what-is-use-case-diagram/02-use-case-diagram-annotated.png" width=80%>
-</div>
+::::{grid}
 
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+```{figure} https://cdn-images.visual-paradigm.com/guide/uml/what-is-use-case-diagram/02-use-case-diagram-annotated.png
+---
+width: 100%
+name: ejemplo1
+---
+Partes del diagrama.
+```
+:::
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+```{figure} https://d2jdgazzki9vjm.cloudfront.net/tutorial/uml/images/uml-use-case-diagram.png
+---
+width: 100%
+name: ejemplo2
+---
+Ejemplo de diagrama de casos de uso: una tienda en línea.
+```
+:::
+::::
 
-<div align="center">
-  <img src="https://d2jdgazzki9vjm.cloudfront.net/tutorial/uml/images/uml-use-case-diagram.png" width=80%>
-</div>
-
-<div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Use_case_restaurant_model.svg/800px-Use_case_restaurant_model.svg.png" width=80%>
-</div>
-
+::::{grid}
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Use_case_restaurant_model.svg/800px-Use_case_restaurant_model.svg.png
+---
+width: 100%
+name: ejemplo3
+---
+Ejemplo de diagrama de casos de uso: restaurante.
+```
+:::
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+```{figure} https://www.uml-diagrams.org/use-case-diagrams/business-use-case-diagram-elements.png
+---
+width: 100%
+name: ejemplo4
+---
+Ejemplo de diagrama de casos de uso: mini aeropuerto.
+```
+:::
+::::
 
 Otros ejemplos: [UML Use Case Diagram Examples](https://www.uml-diagrams.org/use-case-diagrams-examples.html).
 
@@ -89,6 +104,7 @@ Los diagramas de casos de uso se utilizan para:
 - Facilitar la comunicación entre desarrolladores, analistas y clientes al describir el comportamiento esperado del sistema.
 - Servir de base para el diseño detallado y la implementación de funcionalidades.
 
+(ejemplo)=
 ## Ejemplo práctico en Java
 
 ### Caso: Sistema de Biblioteca
@@ -150,21 +166,17 @@ Agrega 2 usos más a cada actor.
 
 ## Ejercicio
 
-Implementa diagramas de uso para tu projecto. Estos diagramas deben tener al menos 3 actores y más de 4 usos por cada actor, puede agregar los que quieras.
+:::{admonition} Taller 5
+Este taller consiste en dos partes:
+1. Implementa el código de la sección [Ejemplo práctico en ava](ejemplo).
+2. Implementa el diagrama de casos de uso para tu proyecto. Estos diagramas deben tener al menos 3 actores y más de 4 usos por cada actor, puede agregar los que quieran.
+:::
 
 ## Conclusión
 
 El **diagrama de casos de uso** es esencial para el diseño de sistemas, ya que permite visualizar las interacciones que los usuarios tendrán con el sistema. Ayuda a identificar los requisitos funcionales y a establecer una comprensión clara entre los equipos de desarrollo y los stakeholders. Además, su simplicidad lo convierte en una herramienta ideal para modelar y comunicar las funcionalidades del sistema de manera efectiva.
 
-## Referencias
-
-### Libros
-
-- Rumbaugh, J., Booch, G., & Jacobson, I. (2004). *The Unified Modeling Language Reference Manual*. Addison-Wesley.
-- Fowler, M. (2003). *UML Distilled: A Brief Guide to the Standard Object Modeling Language*. Addison-Wesley.
-- Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1995). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
-
-### Guías y Tutoriales
+## Recursos Adicionales
 
 - [Use case diagram - Wikipedia](https://en.wikipedia.org/wiki/Use_case_diagram)
 - [UML Use Case Diagrams](https://www.uml-diagrams.org/use-case-diagrams.html)

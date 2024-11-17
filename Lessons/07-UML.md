@@ -1,26 +1,4 @@
-# Lenguaje de Modelado - UML
-
----
-
-- [Lenguaje de Modelado - UML](#lenguaje-de-modelado---uml)
-  - [Objetivo](#objetivo)
-  - [1. Definición del Lenguaje Unificado de Modelado (UML)](#1-definición-del-lenguaje-unificado-de-modelado-uml)
-  - [2. Sintaxis Básica de UML](#2-sintaxis-básica-de-uml)
-  - [3. Propiedades del Lenguaje UML](#3-propiedades-del-lenguaje-uml)
-  - [4. Aspectos Conceptuales y Técnicos de UML](#4-aspectos-conceptuales-y-técnicos-de-uml)
-  - [5. Tipos de Diagramas en UML](#5-tipos-de-diagramas-en-uml)
-    - [Diagramas Estáticos (Estructurales)](#diagramas-estáticos-estructurales)
-    - [Diagramas Dinámicos (De Comportamiento)](#diagramas-dinámicos-de-comportamiento)
-    - [Diagramas de Implementación](#diagramas-de-implementación)
-  - [Conclusión](#conclusión)
-  - [Taller Práctico](#taller-práctico)
-  - [Referencias](#referencias)
-    - [Guias](#guias)
-    - [Libros](#libros)
-    - [Diagramas](#diagramas)
-
-
----
+# Lenguaje de Modelado (UML)
 
 ## Objetivo
 Familiarizar a los estudiantes con el Lenguaje Unificado de Modelado (UML), una herramienta fundamental para el diseño de software. Se abordarán la sintaxis básica, las propiedades del lenguaje, sus aspectos conceptuales y técnicos, así como los diferentes tipos de diagramas que se utilizan en el desarrollo de software, tanto estáticos como dinámicos y de implementación.
@@ -109,8 +87,9 @@ Estos diagramas se utilizan para modelar los aspectos físicos y de implementaci
 El Lenguaje Unificado de Modelado (UML) es una herramienta esencial para cualquier ingeniero de software. Su flexibilidad, estandarización y capacidad para representar tanto la estructura como el comportamiento del sistema lo convierten en un recurso poderoso en el ciclo de vida del desarrollo de software. Los diagramas UML permiten visualizar, analizar y construir sistemas complejos de manera organizada y clara, mejorando la colaboración entre equipos y minimizando errores en la implementación.
 
 
-## Taller Práctico
+## Ejercicio
 
+:::{admonition} Taller 3
 **Objetivo:** Aplicar los conceptos de UML aprendidos en clase para diseñar un sistema de gestión de biblioteca.
 
 **Descripción:**  
@@ -118,10 +97,11 @@ Diseña el modelo UML para un sistema de biblioteca que permita gestionar prést
 - Un diagrama de clases que represente `Libro`, `Usuario`, `Préstamo`, y `Bibliotecario`.
 - Un diagrama de secuencia para el proceso de préstamo de un libro.
 - Un diagrama de casos de uso que muestre las interacciones entre los usuarios y el sistema.
+:::
 
-## Referencias
+## Recursos Adicionales
 
-### Guias
+### Guías
 
 - [UML Class Diagram Tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
 - [UML 2.5 Diagrams Overview](https://www.uml-diagrams.org/uml-25-diagrams.html)
@@ -130,11 +110,6 @@ Diseña el modelo UML para un sistema de biblioteca que permita gestionar prést
 - [Documentación oficial de UML](https://www.uml.org/)
 - OMG Unified Modeling Language (UML), Version 2.5.1. (2017). Object Management Group. https://www.omg.org/spec/UML/2.5.1/
   
-### Libros
-
-- *UML Distilled: A Brief Guide to the Standard Object Modeling Language* por Martin Fowler.
-- *The Unified Modeling Language User Guide* por Grady Booch, James Rumbaugh, Ivar Jacobson.
-
 ### Diagramas
 
 - [Class Diagrams](https://mermaid.js.org/syntax/classDiagram.html)

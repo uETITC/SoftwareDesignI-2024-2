@@ -1,60 +1,24 @@
 # Patrones de Diseño
 
----
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Patrones de Diseño](#patrones-de-diseño)
-  - [Objetivo](#objetivo)
-  - [1. Contexto General de Patrones de Diseño](#1-contexto-general-de-patrones-de-diseño)
-  - [2. Tipos de Patrones de Diseño](#2-tipos-de-patrones-de-diseño)
-    - [1. Patrones Creacionales](#1-patrones-creacionales)
-    - [2. Patrones Estructurales](#2-patrones-estructurales)
-    - [3. Patrones de Comportamiento](#3-patrones-de-comportamiento)
-  - [3. Patrones GOF (Gang of Four)](#3-patrones-gof-gang-of-four)
-    - [Patrones Creacionales del GoF](#patrones-creacionales-del-gof)
-    - [Patrones Estructurales del GoF](#patrones-estructurales-del-gof)
-    - [Patrones de Comportamiento del GoF](#patrones-de-comportamiento-del-gof)
-  - [Conclusión](#conclusión)
-  - [Ejercicio Práctico (en proceso)](#ejercicio-práctico-en-proceso)
-  - [Referencias](#referencias)
-    - [Libros](#libros)
-    - [Guias](#guias)
-
-<!-- /code_chunk_output -->
-
----
-
-
 ## Objetivo
 Comprender el concepto de patrones de diseño en el contexto del desarrollo de software, familiarizarse con los diferentes tipos de patrones, y estudiar los patrones de diseño propuestos por el grupo GoF (Gang of Four) en detalle.
 
 
-<center>
-<table style="width:100%">
-<tr>
-</tr>
-<tr>
-<td>
 
-<center>
+::::{grid}
 
-[![Interpreted vs Compiled](https://img.youtube.com/vi/tAuRQs_d9F8/hqdefault.jpg)](https://www.youtube.com/watch?v=tAuRQs_d9F8)
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+<iframe width="100%" height="280px" src="https://www.youtube.com/embed/tAuRQs_d9F8?si=bExT4XQ-DuCorxH2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-</center>
-</td>
-<td>
-<center>
+:::
+:::{grid-item}
 
-[![](https://img.youtube.com/vi/tv-_1er1mWI/hqdefault.jpg)](https://www.youtube.com/watch?v=tv-_1er1mWI)
+<iframe width="100%" height="280px" src="https://www.youtube.com/embed/tv-_1er1mWI?si=M4ONrTowdRuMPBLR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-</center>
-</td>
-</tr>
-</table>
-</center>
+:::
+::::
 
 ## 1. Contexto General de Patrones de Diseño
 
@@ -130,12 +94,7 @@ El uso de patrones de diseño es fundamental para mejorar la calidad, eficiencia
 2. **Aplicar el patrón Observer.**
    - Crea un sistema de notificaciones donde varios usuarios observan cambios en el estado de un servicio (por ejemplo, un servicio de noticias o una actualización de stock de productos). Al cambiar el estado, todos los usuarios suscritos deben ser notificados automáticamente.
 
-## Referencias
+## Recursos Adicionales
 
-### Libros
-- Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley.
-- Freeman, E., & Freeman, E. (2004). *Head First Design Patterns*. O'Reilly Media.
-
-### Guias 
 - [Design Patterns - Refactoring Guru](https://refactoring.guru/design-patterns)
 - [Design Patterns - Source Making](https://sourcemaking.com/design_patterns)

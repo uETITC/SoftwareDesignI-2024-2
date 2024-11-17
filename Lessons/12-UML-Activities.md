@@ -1,27 +1,4 @@
-# Diagramas UML de Actividades
-
----
-
-- [Diagramas UML de Actividades](#diagramas-uml-de-actividades)
-  - [Introducción](#introducción)
-  - [Objetivos](#objetivos)
-  - [Definición](#definición)
-  - [Propiedades](#propiedades)
-  - [Sintaxis](#sintaxis)
-  - [Usos](#usos)
-  - [Ejemplo](#ejemplo)
-  - [Ejercicio Práctico: Diagrama de Actividades para un Sistema de Cinema](#ejercicio-práctico-diagrama-de-actividades-para-un-sistema-de-cinema)
-    - [Requisitos](#requisitos)
-    - [Ejemplo de Código Java para Simular el Sistema de Cinema](#ejemplo-de-código-java-para-simular-el-sistema-de-cinema)
-    - [Consideraciones para el Diagrama de Actividades](#consideraciones-para-el-diagrama-de-actividades)
-  - [Conclusiones](#conclusiones)
-  - [Referencias](#referencias)
-    - [Guías y Tutoriales](#guías-y-tutoriales)
-    - [Libros](#libros)
-    - [Videos](#videos)
-
-
----
+# Diagramas Actividades
 
 ## Introducción
 Los diagramas de actividades son una herramienta fundamental en el diseño de software para modelar el flujo de trabajo o comportamiento dinámico dentro de un sistema. Este tipo de diagrama, parte esencial del Lenguaje Unificado de Modelado (UML), permite representar la secuencia de acciones y decisiones que un sistema realiza para completar una tarea. En esta clase, exploraremos la definición, propiedades, sintaxis y usos de los diagramas de actividades, con ejemplos prácticos que ayudarán a comprender su aplicabilidad en el diseño de software.
@@ -74,7 +51,7 @@ Los diagramas de actividades tienen diversas aplicaciones en el desarrollo y dis
 ## Ejemplo
 Supongamos que estamos modelando el proceso de compra en una tienda en línea. Este proceso incluye las siguientes actividades: seleccionar productos, agregar al carrito, pagar, y recibir una confirmación.
 
-```plaintext
+```text
 Inicio → Selección de productos → [Carrito lleno?] → Agregar al carrito → Pagar → [Pago exitoso?] → Confirmación → Fin
                                  ↓
                                  Agregar más productos
@@ -210,7 +187,7 @@ public class CinemaSystem {
 ## Conclusiones
 El diagrama de actividades es una herramienta visual poderosa para modelar el comportamiento dinámico dentro de un sistema, facilitando la comprensión de procesos complejos. Su capacidad para representar flujos de control, decisiones, y actividades concurrentes es esencial para diseñar software eficiente y bien estructurado. Mediante la representación gráfica, los diagramas de actividades ofrecen una manera clara de entender y comunicar el flujo de acciones en un sistema, mejorando tanto el diseño como la implementación del software.
 
-## Referencias
+## Recursos Adicionales
 
 ### Guías y Tutoriales
 
@@ -218,11 +195,6 @@ El diagrama de actividades es una herramienta visual poderosa para modelar el co
 - [What is Activity Diagram?](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-activity-diagram/)
 - [UML Activity Diagram Tutorial - Lucidchart](https://www.lucidchart.com/pages/uml-activity-diagram)
 - [UML 2 Tutorial - Activity Diagram](https://sparxsystems.com/resources/tutorials/uml2/activity-diagram.html)
-
-
-### Libros
-- Booch, G., Rumbaugh, J., & Jacobson, I. (2005). *The Unified Modeling Language User Guide*. Addison-Wesley.
-- Fowler, M. (2003). *UML Distilled: A Brief Guide to the Standard Object Modeling Language*. Addison-Wesley.
 - Object Management Group (OMG). UML Resource Page. [https://www.omg.org/spec/UML](https://www.omg.org/spec/UML)
 
 ### Videos

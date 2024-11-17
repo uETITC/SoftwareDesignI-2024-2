@@ -1,48 +1,8 @@
 # Métodos de Desarrollo de Software
 
----
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Métodos de Desarrollo de Software](#métodos-de-desarrollo-de-software)
-  - [Objetivo](#objetivo)
-  - [1. Introducción a los Métodos de Desarrollo de Software](#1-introducción-a-los-métodos-de-desarrollo-de-software)
-  - [2. Métodos Tradicionales](#2-métodos-tradicionales)
-    - [2.1 Cascada](#21-cascada)
-    - [2.2 Modelo en V](#22-modelo-en-v)
-    - [2.3 Proceso Unificado Racional (RUP)](#23-proceso-unificado-racional-rup)
-  - [3. Métodos Ágiles](#3-métodos-ágiles)
-    - [3.1 Programación Extrema (XP)](#31-programación-extrema-xp)
-    - [3.2 SCRUM](#32-scrum)
-    - [3.3 Desarrollo Adaptativo de Software (DAS)](#33-desarrollo-adaptativo-de-software-das)
-    - [3.4 Desarrollo Impulsado por Características (FDD)](#34-desarrollo-impulsado-por-características-fdd)
-    - [3.5 Desarrollo Dinámico de Sistemas (DSDM)](#35-desarrollo-dinámico-de-sistemas-dsdm)
-    - [3.6 Proceso Unificado Ágil (AUP)](#36-proceso-unificado-ágil-aup)
-    - [3.7 PMI-Ágil](#37-pmi-ágil)
-    - [3.8 Otros](#38-otros)
-      - [Lean Approach](#lean-approach)
-      - [Kanban Board](#kanban-board)
-      - [DevOps](#devops)
-      - [Design Thinking](#design-thinking)
-      - [Crystal](#crystal)
-      - [SAFe](#safe)
-  - [4. Tabla Comparativa](#4-tabla-comparativa)
-  - [Conclusión](#conclusión)
-  - [Ejercicio](#ejercicio)
-  - [Referencias](#referencias)
-    - [Libros](#libros)
-    - [Guias y Tutoriales](#guias-y-tutoriales)
-
-<!-- /code_chunk_output -->
-
-
-
 ## Objetivo
 
 El objetivo de esta clase es proporcionar a los estudiantes una comprensión detallada de los diferentes métodos de desarrollo de software, tanto tradicionales como ágiles. Los estudiantes aprenderán sobre las características, ventajas, desventajas y aplicaciones prácticas de cada enfoque. Al finalizar la clase, los estudiantes estarán capacitados para seleccionar el método de desarrollo adecuado para diferentes tipos de proyectos de software.
-
 
 ## 1. Introducción a los Métodos de Desarrollo de Software
 
@@ -56,11 +16,9 @@ Los métodos de desarrollo de software son marcos y prácticas que guían el pro
 **Definición:**  
 El modelo en cascada es uno de los métodos más antiguos y conocidos en el desarrollo de software. Sigue un enfoque lineal y secuencial, donde cada fase del desarrollo debe completarse antes de pasar a la siguiente.
 
-<div align="center">
-
-[![Software Design](https://img.youtube.com/vi/Y_A0E1ToC_I/hqdefault.jpg)](https://www.youtube.com/watch?v=Y_A0E1ToC_I)
-
-</div>
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/Y_A0E1ToC_I?si=pVbKepB6S55KPsxy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 **Fases**:  
 - **Requisitos:** Recopilación de todas las necesidades del cliente.
@@ -70,14 +28,13 @@ El modelo en cascada es uno de los métodos más antiguos y conocidos en el desa
 - **Despliegue:** Implementación del software en el entorno de producción.
 - **Mantenimiento:** Corrección de errores y mejoras.
 
-<div align="center">
-<img src="https://kruschecompany.com/wp-content/uploads/2021/09/Waterfall-methodology-infographic-showing-software-development-models-linear-life-cycle-phases-1536x1229.jpg" width=80%>
-</div>
-
-[What is the Waterfall software development methodology and is it still relevant?](https://kruschecompany.com/waterfall-software-development-methodology/)
-
-
-</div>
+:::{figure} https://kruschecompany.com/wp-content/uploads/2021/09/Waterfall-methodology-infographic-showing-software-development-models-linear-life-cycle-phases-1536x1229.jpg
+---
+width: 80%
+name: metodologiacascada
+---
+Metodología en cascada.
+:::
 
 **Ventajas:**  
 - Simple y fácil de entender y utilizar.
@@ -98,12 +55,13 @@ El modelo en V es una extensión del modelo en cascada, pero enfatiza la verific
 **Fases:**
 - Similar al modelo en cascada, pero con un enfoque paralelo en la prueba y desarrollo.
 
-<div align="center">
-<img src="https://www.bdtask.com/blog/assets/plugins/ckfinder/core/connector/php/uploads/images/diagram-of-v-model.jpg" width=80%>
-</div>
-
-[V Model In Software Development-Best Practice in SDLC Process](https://www.bdtask.com/blog/v-model-in-software-development)
-
+:::{figure} https://www.bdtask.com/blog/assets/plugins/ckfinder/core/connector/php/uploads/images/diagram-of-v-model.jpg
+---
+width: 80%
+name: metodologiav
+---
+Metodología en V. Tomado de [V Model In Software Development-Best Practice in SDLC Process](https://www.bdtask.com/blog/v-model-in-software-development).
+:::
 
 **Ventajas:**  
 - Mayor enfoque en las pruebas desde el principio.
@@ -120,11 +78,9 @@ Desarrollo de software para sistemas de control crítico, como software médico 
 **Definición:**  
 RUP es un marco iterativo que permite la personalización de procesos. Se basa en la creación de modelos visuales del sistema y en la iteración a través de varias fases del ciclo de vida del software.
 
-<div align="center">
-
-[![Software Design](https://img.youtube.com/vi/caLs9vlqSs4/hqdefault.jpg)](https://www.youtube.com/watch?v=caLs9vlqSs4)
-
-</div>
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/caLs9vlqSs4?si=E8wwmllhdw12GuqP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 **Fases:**  
 - **Inicio:** Definición de la visión del proyecto.
@@ -133,30 +89,34 @@ RUP es un marco iterativo que permite la personalización de procesos. Se basa e
 - **Transición:** Despliegue y entrega del producto final.
 
 
-<center>
-<table>
-<tr>
-</tr>
-<tr>
-<td>
+::::{grid}
 
-<div align="center">
-<img src="https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/1/f/1f26a4b2de8657ecc76f9e29a56e6083b48c21cd0ff0be1fcc0aeca003f8f107/rational-unified-process-mc-slide1.png" width=100%>
-</div>
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+```{figure} https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/1/f/1f26a4b2de8657ecc76f9e29a56e6083b48c21cd0ff0be1fcc0aeca003f8f107/rational-unified-process-mc-slide1.png
+---
+width: 100%
+name:
+---
+Tomado de [Rational Unified Process PowerPoint and Google Slides Template](https://www.sketchbubble.com/en/presentation-rational-unified-process.html).
+```
+:::
 
-</td>
-<td>
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
 
-<div align="center">
-<img src="https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/9/d/9de4b0672a98679eb5c82edc7636bc6910c0d68b0c630e7a16053c861f8f2b28/rational-unified-process-mc-slide5.png" width=100%>
-</div>
+```{figure} https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/9/d/9de4b0672a98679eb5c82edc7636bc6910c0d68b0c630e7a16053c861f8f2b28/rational-unified-process-mc-slide5.png
+---
+width: 100%
+name:
+---
+Tomado de [Rational Unified Process PowerPoint and Google Slides Template](https://www.sketchbubble.com/en/presentation-rational-unified-process.html).
+```
+:::
+::::
 
-</td>
-</tr>
-</table>
-</center>
-
-[Rational Unified Process PowerPoint and Google Slides Template](https://www.sketchbubble.com/en/presentation-rational-unified-process.html)
 
 **Ventajas:**  
 - Flexible y adaptable a diferentes tipos de proyectos.
@@ -211,54 +171,45 @@ Además, el manifiesto se acompaña de 12 principios que detallan cómo aplicar 
 
 Los métodos ágiles han transformado la industria del software, brindando un enfoque más dinámico y centrado en el cliente para la gestión y ejecución de proyectos. Son particularmente útiles en entornos donde los requisitos son inciertos o pueden cambiar rápidamente, y donde la velocidad de entrega es una prioridad.
 
-<center>
-<table>
-<tr>
-</tr>
-<tr>
-<td>
+::::{grid}
 
-<div align="center">
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
 
-[![Software Design](https://img.youtube.com/vi/8eVXTyIZ1Hs/hqdefault.jpg)](https://www.youtube.com/watch?v=8eVXTyIZ1Hs)
+<iframe width="100%" height="280px" src="https://www.youtube.com/embed/8eVXTyIZ1Hs?si=VhCD2PwdcGrF_9Iq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-</div>
+:::
 
-</td>
-<td>
-
-<div align="center">
-
-[![Software Design](https://img.youtube.com/vi/zi7uGg6FVM4/hqdefault.jpg)](https://www.youtube.com/watch?v=zi7uGg6FVM4)
-
-</div>
-
-</td>
-</tr>
-</table>
-</center>
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+<iframe width="100%" height="280px" src="https://www.youtube.com/embed/zi7uGg6FVM4?si=ILn_ylo2USxYobqS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+:::
+::::
 
 ### 3.1 Programación Extrema (XP)
 
 **Definición:**  
 XP es un enfoque de desarrollo ágil que enfatiza la simplicidad, la comunicación, la retroalimentación y el coraje. Se centra en entregas frecuentes de software funcional y en la adaptación constante a los cambios en los requisitos.
 
-<div align="center">
-
-[![Software Design](https://img.youtube.com/vi/p3Zl6dLGILU/hqdefault.jpg)](https://www.youtube.com/watch?v=p3Zl6dLGILU)
-
-</div>
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/p3Zl6dLGILU?si=N5NFay6Ct6ghJ0_B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 **Prácticas clave:**  
 - **Desarrollo incremental:** Entrega de pequeñas funcionalidades en ciclos cortos.
 - **Pruebas constantes:** Pruebas unitarias y de integración continuas.
 - **Programación en parejas:** Dos desarrolladores trabajan juntos en una sola tarea para mejorar la calidad del código.
 
-<div align="center">
-<img src="https://www.visual-paradigm.com/servlet/editor-content/scrum/the-top-7-popular-agile-development-approaches/sites/7/2018/12/extreme-programming.png" width=90%>
-</div>
+:::{figure} https://www.visual-paradigm.com/servlet/editor-content/scrum/the-top-7-popular-agile-development-approaches/sites/7/2018/12/extreme-programming.png
+---
+width: 90%
+name:
+---
+Tomado de [The Top 7 Popular Agile Development Approaches](https://www.visual-paradigm.com/scrum/the-top-7-popular-agile-development-approaches/).
+:::
 
-[The Top 7 Popular Agile Development Approaches](https://www.visual-paradigm.com/scrum/the-top-7-popular-agile-development-approaches/)
 
 **Aspectos Importantes**
 - Comunicación
@@ -284,35 +235,25 @@ Desarrollo de aplicaciones web donde los requisitos pueden cambiar con frecuenci
 SCRUM es un marco ágil que organiza el desarrollo en sprints, ciclos cortos de trabajo que normalmente duran entre 2 y 4 semanas. SCRUM se centra en la colaboración, la flexibilidad y la entrega constante de valor.
 
 
-<center>
-<table>
-<tr>
-</tr>
-<tr>
-<td>
+::::{grid}
 
-<div align="center">
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
 
-[![Software Design](https://img.youtube.com/vi/TRcReyRYIMg/hqdefault.jpg)](https://www.youtube.com/watch?v=TRcReyRYIMg)
+<iframe width="100%" height="280px" src="https://www.youtube.com/embed/TRcReyRYIMg?si=MnXEkEUin5_H12qq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-</div>
+:::
 
-</td>
-<td>
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
 
-<div align="center">
+<iframe width="100%" height="280px" src="https://www.youtube.com/embed/2Vt7Ik8Ublw?si=m1DIQ7OWMkgPgN5x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-[![Software Design](https://img.youtube.com/vi/2Vt7Ik8Ublw/hqdefault.jpg)](https://www.youtube.com/watch?v=2Vt7Ik8Ublw)
+:::
+::::
 
-</div>
-
-</td>
-</tr>
-</table>
-</center>
-
-[✋ #3. SCRUM en 👉 6 minutos 👈 | Metodologías Ágiles](https://www.youtube.com/watch?v=HhC75IonpOU) 
-[What is Scrum? | Scrum under 3 minutes ](https://www.youtube.com/watch?v=iJ_sl6J8PRg)
 
 **Roles clave:**  
 - **Product Owner:** Define las prioridades y gestiona los pendientes (backlog).
@@ -326,17 +267,23 @@ SCRUM es un marco ágil que organiza el desarrollo en sprints, ciclos cortos de 
 - **Sprint Retrospective:** Reflexión sobre el proceso para mejorarlo en el siguiente sprint.
 
 
-<div align="center">
-<img src="https://www.visual-paradigm.com/servlet/editor-content/scrum/the-top-7-popular-agile-development-approaches/sites/7/2018/12/five-scrum-events.png" width=100%>
-</div>
+:::{figure} https://www.visual-paradigm.com/servlet/editor-content/scrum/the-top-7-popular-agile-development-approaches/sites/7/2018/12/five-scrum-events.png
+---
+width: 90%
+name: sprint
+---
+Sprint. Tomado de [The Top 7 Popular Agile Development Approaches](https://www.visual-paradigm.com/scrum/the-top-7-popular-agile-development-approaches/).
+:::
 
-[The Top 7 Popular Agile Development Approaches](https://www.visual-paradigm.com/scrum/the-top-7-popular-agile-development-approaches/)
 
-<div align="center">
-<img src="https://donetonic.com/wp-content/uploads/2022/10/Procesos-SCRUM-1024x575.png" width=100%>
-</div>
+:::{figure} https://donetonic.com/wp-content/uploads/2022/10/Procesos-SCRUM-1024x575.png
+---
+width: 90%
+name: scrum
+---
+Procesos SCRUM. Tomado de [Pasos para configurar tu flujo de trabajo Scrum](https://donetonic.com/es/pasos-para-configurar-tu-flujo-de-trabajo-scrum/).
+:::
 
-[Pasos para configurar tu flujo de trabajo Scrum](https://donetonic.com/es/pasos-para-configurar-tu-flujo-de-trabajo-scrum/)
 
 **Ventajas:**  
 - Alta transparencia y visibilidad del progreso.
@@ -354,24 +301,22 @@ Desarrollo de software comercial donde las prioridades pueden cambiar con frecue
 **Definición:**  
 DAS es un enfoque ágil que enfatiza la adaptación y la flexibilidad. Está diseñado para proyectos donde los requisitos no se pueden definir por completo desde el principio y pueden cambiar durante el desarrollo.
 
-<div align="center">
-
-[![Software Design](https://img.youtube.com/vi/ePNSAIJ9-Ls/hqdefault.jpg)](https://www.youtube.com/watch?v=ePNSAIJ9-Ls)
-
-</div>
-
-[Desarrollo Adaptativo de Software](https://www.youtube.com/watch?v=rm9mTPV0_YM)
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/ePNSAIJ9-Ls?si=vZN2g9yn1ESuBaDb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 **Fases:**  
 - **Especulación:** Planificación inicial con la comprensión de que los cambios son inevitables.
 - **Colaboración:** Trabajo en equipo para resolver problemas a medida que surgen.
 - **Aprendizaje:** Reflexión continua sobre lo que funciona y lo que no.
 
-<div>
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20240628160315/asd1.webp" width=100%>
-</div>
-
-[What is Adaptive Software Development (ASD)?](https://www.geeksforgeeks.org/adaptive-software-development-asd/)
+:::{figure} https://media.geeksforgeeks.org/wp-content/uploads/20240628160315/asd1.webp
+---
+width: 80%
+name: asd
+---
+Tomado de [What is Adaptive Software Development (ASD)?](https://www.geeksforgeeks.org/adaptive-software-development-asd/).
+:::
 
 **Ventajas:**  
 - Excelente para proyectos con alta incertidumbre.
@@ -389,13 +334,9 @@ Proyectos de I+D donde la innovación y la experimentación son clave.
 **Definición:**  
 FDD es un enfoque ágil que se centra en la entrega de características de software que aportan valor al cliente. El desarrollo se organiza en torno a la construcción de características definidas de manera clara.
 
-
-<div align="center">
-
-[![Software Design](https://img.youtube.com/vi/mmlOgBWLVO4/hqdefault.jpg)](https://www.youtube.com/watch?v=mmlOgBWLVO4)
-
-</div>
-
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/mmlOgBWLVO4?si=Cw7GwzwoviBpiQTV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 **Etapas:**  
 - **Desarrollo del modelo:** Creación de un modelo general del sistema.
@@ -404,12 +345,13 @@ FDD es un enfoque ágil que se centra en la entrega de características de softw
 - **Diseño por característica:** Diseño detallado de cada característica.
 - **Construcción por característica:** Desarrollo y prueba de cada característica.
 
-<div>
-<img src="https://lvivity.com/wp-content/uploads/2020/06/fdd-steps.jpg" width=100%>
-</div>
-
-[7 Things You Need to Know About Feature Driven Development](https://lvivity.com/7-things-about-feature-driven-development)
-
+:::{figure} https://lvivity.com/wp-content/uploads/2020/06/fdd-steps.jpg
+---
+width: 80%
+name:
+---
+Tomado de [7 Things You Need to Know About Feature Driven Development](https://lvivity.com/7-things-about-feature-driven-development).
+:::
 
 **Ventajas:**  
 - Enfoque en la entrega constante de valor al cliente.
@@ -428,32 +370,24 @@ Desarrollo de sistemas de comercio electrónico donde las características clave
 DSDM es un enfoque ágil que se centra en la entrega de software funcional en plazos ajustados. Promueve la colaboración, la calidad y la entrega incremental.
 
 
-<center>
-<table>
-<tr>
-</tr>
-<tr>
-<td>
+::::{grid}
 
-<div align="center">
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
 
-[![Software Design](https://img.youtube.com/vi/KIydGplAVo4/hqdefault.jpg)](https://www.youtube.com/watch?v=KIydGplAVo4)
+<iframe width="100%" height="280px" src="https://www.youtube.com/embed/KIydGplAVo4?si=oTUwi73i11XzeVdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-</div>
+:::
 
-</td>
-<td>
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
 
-<div align="center">
+<iframe width="100%" height="280px" src="https://www.youtube.com/embed/rIlcaPEGpyg?si=1h8zgryBkcdiciy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-[![Software Design](https://img.youtube.com/vi/rIlcaPEGpyg/hqdefault.jpg)](https://www.youtube.com/watch?v=rIlcaPEGpyg)
-
-</div>
-
-</td>
-</tr>
-</table>
-</center>
+:::
+::::
 
 **Principios clave:**  
 - **Entrega a tiempo:** Cumplir con los plazos es más importante que completar todas las características.
@@ -470,11 +404,13 @@ DSDM es un enfoque ágil que se centra en la entrega de software funcional en pl
 - Implementación
 - Post-proyecto
 
-<div align="center">
-<img src="https://www.toolsqa.com/gallery/Agile%20-%20Scrum/3.Feasibility-Study-and-Business-Study-in-DSDM.webp" width=90%>
-</div>
-
-[DSDM : A Step-by-Step-Guide [2019]](https://www.toolsqa.com/agile/dsdm-guide/)
+:::{figure} https://www.toolsqa.com/gallery/Agile%20-%20Scrum/3.Feasibility-Study-and-Business-Study-in-DSDM.webp
+---
+width: 80%
+name:
+---
+Tomado de [DSDM : A Step-by-Step-Guide [2019]](https://www.toolsqa.com/agile/dsdm-guide/).
+:::
 
 **Ventajas:**  
 - Excelente para proyectos con plazos estrictos.
@@ -495,30 +431,38 @@ AUP es una simplificación de RUP (Proceso Unificado Racional) que integra princ
 
 Es un proceso de desarrollo iterativo e incremental. Las fases de elaboración, construcción y transición se dividen en una serie de iteraciones temporizadas. (En un proyecto de gran envergadura, la fase de inicio también puede dividirse en iteraciones). Cada iteración da lugar a un incremento, que es una versión del sistema que contiene una funcionalidad añadida o mejorada en comparación con la versión anterior. 
 
-<div align="center">
-
-[![Software Design](https://img.youtube.com/vi/oFbr-EcWJ4I/hqdefault.jpg)](https://www.youtube.com/watch?v=oFbr-EcWJ4I)
-
-</div>
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/oFbr-EcWJ4I?si=eVpE1PFtu-Mmsg3C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 **Fases:**
 - **Inicio, Elaboración, Construcción y Transición:** Similares a las fases de RUP, pero con un enfoque en la entrega incremental y continua de valor al cliente.
 - **Iteración y Retroalimentación:** Al igual que en otros enfoques ágiles, AUP se basa en la iteración y la retroalimentación continua para ajustar y mejorar el software a medida que avanza el desarrollo.
 
-<div align="center">
-<img src="https://www.slideteam.net/media/catalog/product/cache/1280x720/a/u/aup_software_development_phases_of_each_workflow_in_agile_unified_process_slide01.jpg" width=90%>
-</div>
+:::{figure} https://www.slideteam.net/media/catalog/product/cache/1280x720/a/u/aup_software_development_phases_of_each_workflow_in_agile_unified_process_slide01.jpg
+---
+width: 80%
+name:
+---
 
-<div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/UnifiedProcessProjectProfile20060708.png" width=60%>
-</div>
+:::
+
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/d/d9/UnifiedProcessProjectProfile20060708.png
+---
+width: 80%
+name:
+---
+
+:::
 
 
-<div align="center">
-<img src="https://www.slideteam.net/media/catalog/product/cache/1280x720/a/u/aup_software_development_7_disciplines_of_agile_unified_process_slide01.jpg" width=90%>
-</div>
+:::{figure} https://www.slideteam.net/media/catalog/product/cache/1280x720/a/u/aup_software_development_7_disciplines_of_agile_unified_process_slide01.jpg
+---
+width: 80%
+name:
+---
 
-
+:::
 
 
 **Ventajas:**
@@ -537,13 +481,9 @@ Proyectos de desarrollo de software empresarial que requieren un enfoque más es
 **Definición:**  
 PMI-Ágil es una combinación del enfoque tradicional de gestión de proyectos del Project Management Institute (PMI) con principios ágiles. Este enfoque busca integrar las mejores prácticas de la gestión de proyectos con la flexibilidad y adaptabilidad de los métodos ágiles.
 
-
-<div align="center">
-
-[![Software Design](https://img.youtube.com/vi/3DMi4T8Y_Dg/hqdefault.jpg)](https://www.youtube.com/watch?v=3DMi4T8Y_Dg)
-
-</div>
-
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/3DMi4T8Y_Dg?si=dbriJVIfeY3g-4J6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 **Características Clave:**
 
@@ -577,36 +517,42 @@ Un proyecto de desarrollo de software en una gran organización que utiliza prá
 - **PMI-ACP (Agile Certified Practitioner):** Una certificación ofrecida por PMI que valida el conocimiento y la experiencia en la gestión de proyectos ágiles.
 - **PMBOK Guide - Seventh Edition:** Incluye principios ágiles como parte de las mejores prácticas de gestión de proyectos.
 
-
-<div align="center">
-
-[![Software Design](https://img.youtube.com/vi/K7YMEFjh724/hqdefault.jpg)](https://www.youtube.com/watch?v=K7YMEFjh724)
-
-</div>
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/K7YMEFjh724?si=9MDs03hte3nU_ooj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 ### 3.8 Otros
 
 #### Lean Approach
 
-<div align="center">
-<img src="https://www.visual-paradigm.com/servlet/editor-content/scrum/the-top-7-popular-agile-development-approaches/sites/7/2020/01/lean-principles.png" widht=90%>
-</div>
+:::{figure} https://www.visual-paradigm.com/servlet/editor-content/scrum/the-top-7-popular-agile-development-approaches/sites/7/2020/01/lean-principles.png
+---
+width: 100%
+name: lean
+---
+Principios de la metodología Lean.
+:::
 
 #### Kanban Board
 
-<div align="center">
-<img src="https://www.visual-paradigm.com/servlet/editor-content/scrum/the-top-7-popular-agile-development-approaches/sites/7/2020/01/kanban-board.png" widht=90%>
-</div>
+:::{figure} https://www.visual-paradigm.com/servlet/editor-content/scrum/the-top-7-popular-agile-development-approaches/sites/7/2020/01/kanban-board.png
+---
+width: 70%
+name: kanban
+---
+Ejemplo de la metodología Kanban Board. Tomado de [The Top 7 Popular Agile Development Approaches](https://www.visual-paradigm.com/scrum/the-top-7-popular-agile-development-approaches/).
+::: 
 
-[The Top 7 Popular Agile Development Approaches](https://www.visual-paradigm.com/scrum/the-top-7-popular-agile-development-approaches/)
 
 #### DevOps
 
-<div align="center">
-<img src="https://agilefirst.io/content/images/size/w2000/2022/06/agile-devops.png  " widht=90%>
-</div>
-
-[Agile DevOps](https://agilefirst.io/agile-devops/)
+:::{figure} https://agilefirst.io/content/images/size/w2000/2022/06/agile-devops.png
+---
+width: 90%
+name: devops
+---
+Ejempo de la metodología DevOps. Tomado de [Agile DevOps](https://agilefirst.io/agile-devops/).
+:::
 
 #### Design Thinking
 
@@ -640,19 +586,11 @@ En un entorno de desarrollo de software cada vez más dinámico y complejo, comp
 
 ## Ejercicio
 
-Basados en el problema asignado, seleccionen una metodología tradicional y 3 tipo ágil para diseñar una solución al problema. De ser necesario inventen los requisitos y emulen los roles que se necesitan para cada metodología. 
+::::{admonition} Taller 2
+Basados en el problema del proyecto asignado, seleccionen una metodología tradicional y 3 metodologías ágil para diseñar una solución al problema. De ser necesario inventen los requisitos y emulen los roles que se necesitan para cada metodología. 
+::::
 
-## Referencias
-
-### Libros
-
-- Pressman, R. S. (2014). *Software Engineering: A Practitioner's Approach* (8th Edition). McGraw-Hill.
-- Sommerville, I. (2015). *Software Engineering* (10th Edition). Pearson.
-- Beck, K. (2004). *Extreme Programming Explained: Embrace Change* (2nd Edition). Addison-Wesley.
-- Schwaber, K., & Sutherland, J. (2017). *The Scrum Guide*. Scrum.org.
-- Larman, C. (2004). *Agile and Iterative Development: A Manager's Guide*. Addison-Wesley.
-
-### Guias y Tutoriales
+## Recursos Adicioanles
 
 - [Project Management Institute - Agile Certified Practitioner (PMI-ACP)](https://www.pmi.org/certifications/agile-acp)
 - [PMI's Pulse of the Profession](https://www.pmi.org/learning/thought-leadership/pulse)

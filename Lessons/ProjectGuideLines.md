@@ -1,20 +1,8 @@
-# Guía para la Realización del Proyecto
+# Guía
 
----
-
-- [Guía para la Realización del Proyecto](#guía-para-la-realización-del-proyecto)
-  - [1. Objetivo del Proyecto](#1-objetivo-del-proyecto)
-  - [2. Descripción del Proyecto](#2-descripción-del-proyecto)
-  - [3. Requisitos Funcionales](#3-requisitos-funcionales)
-  - [4. Fases del Proyecto](#4-fases-del-proyecto)
-  - [5. Criterios de Evaluación](#5-criterios-de-evaluación)
-  - [6. Recursos](#6-recursos)
-  - [7. Entregables](#7-entregables)
-  - [8. Consideraciones Finales](#8-consideraciones-finales)
-  - [9. Fechas Importantes](#9-fechas-importantes)
-  - [10. Recomendaciones](#10-recomendaciones)
-
----
+:::{warning}
+El proyecto debe estar en [GitHub](https://www.github.com) y todos deben participar activamente.
+:::
 
 ## 1. Objetivo del Proyecto
    Desarrollar una solución de software que aplique las mejores prácticas y principios de diseño, utilizando patrones de diseño, arquitectura de software, y técnicas de modelado UML. El proyecto debe ser realizado de a uno.
@@ -45,9 +33,9 @@
      - Posible división de tareas entre los miembros del equipo.
      - Algunas referencias de interés.
   
->[!NOTE]
->Hasta aquí va la primera entrega. Recuerden que el reporte debe estar en el repositorio del proyecto y TODOS deben participar activamente.
-
+:::{note}
+Hasta aquí va la primera entrega. Recuerden que el reporte debe estar en el repositorio del proyecto y TODOS deben participar activamente.
+:::
    - **Fase 2: Diseño de la arquitectura**
      - **Objetivo**: Definir la arquitectura del sistema, identificando las capas o módulos principales. Describir cómo las partes del sistema interactuarán entre sí.
      - **Entregable**: Diagrama de arquitectura del sistema y justificación de la arquitectura seleccionada.
@@ -56,8 +44,9 @@
      - **Objetivo**: Crear los diagramas UML que describen el sistema, y aplicar los patrones de diseño apropiados para cada componente o interacción.
      - **Entregable**: Diagramas UML (casos de uso, clases, secuencia, estados, etc.) y un documento explicando la aplicación de los patrones de diseño.
    
->[!NOTE]
->Hasta aquí va la segunda entrega. Recuerden que el reporte debe estar en el repositorio del proyecto y TODOS deben participar activamente. En esta entrega deben tener los diagramas de clases, objetos, casos de uso, y de actividades para el problema asignado.
+:::{note}
+Hasta aquí va la segunda entrega. Recuerden que el reporte debe estar en el repositorio del proyecto y TODOS deben participar activamente. En esta entrega deben tener los diagramas de clases, objetos, casos de uso, y de actividades para el problema asignado.
+:::
 
    - **Fase 4: Implementación (opcional)**
      - **Objetivo**: Implementar una solución mínima viable (MVP) del sistema diseñado, asegurando la correcta implementación de los patrones y la arquitectura seleccionada.

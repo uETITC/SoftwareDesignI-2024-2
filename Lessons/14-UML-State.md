@@ -1,4 +1,4 @@
-# Diagramas de Estado UML
+# Diagramas de Estado
 
 ## Introducción
 
@@ -18,7 +18,7 @@ Los diagramas de estado pueden modelar no solo el comportamiento interno de un o
 
 <div align="center">
 
-[![UML Sqeuence](https://img.youtube.com/vi/_6TFVzBW7oo/hqdefault.jpg)](https://www.youtube.com/watch?v=_6TFVzBW7oo)
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/_6TFVzBW7oo?si=odqnUpw8C1OxXaPL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 </div>
 
@@ -43,7 +43,7 @@ En un diagrama de estado, la sintaxis se basa en los siguientes elementos básic
 
 ### Ejemplo de Sintaxis
 
-```plaintext
+```text
 [Estado Inicial] --> Estado1
 Estado1 --Evento1--> Estado2
 Estado2 --Evento2--> Estado Final
@@ -74,7 +74,7 @@ Y las transiciones entre estos estados se producen por eventos específicos:
 - **Entregar Orden**: Transición de "Orden enviada" a "Orden entregada".
 - **Cancelar Orden**: Transición de cualquier estado a "Orden cancelada" si hay una cancelación.
 
-```plaintext
+```text
 [Inicio] --> Orden creada
 Orden creada --Procesar Orden--> Orden en proceso
 Orden en proceso --Enviar Orden--> Orden enviada
@@ -96,7 +96,7 @@ Orden enviada --Cancelar Orden--> Orden cancelada
 
 Los diagramas de estado UML son herramientas fundamentales para modelar comportamientos dinámicos y complejos en sistemas. A través de la identificación de estados y eventos, estos diagramas facilitan la representación del ciclo de vida de los objetos, permitiendo diseñar sistemas más intuitivos y funcionales.
 
-## Referencias
+## Recursos Adicionales
 
 ### Guías y Tutoriales
 

@@ -1,4 +1,8 @@
-# Taller: Evaluación de Diagramas UML de Clases y Objetos con Herencia y Asociación
+# Taller
+
+## Tema Principal
+
+Diagramas de Clases y Objetos para una tienda simple.
 
 ## Objetivo:
 El propósito de este taller es que los estudiantes identifiquen y traduzcan los componentes del código Java en diagramas UML de clases y objetos, con un enfoque en la representación de relaciones de **herencia** y **asociación**. Este ejercicio les permitirá visualizar cómo se estructuran y relacionan las clases en un sistema con más detalle.
@@ -118,7 +122,11 @@ public class Main {
 }
 ```
 
-## Tareas del Taller:
+## Ejercicio
+
+::::{admonition} Taller 5
+
+### Tareas
 
 1. **Diagrama de Clases UML**:
    - Identifique las clases **Producto**, **Libro**, **Revista**, **Cliente**, y **Pedido**.
@@ -130,14 +138,14 @@ public class Main {
    - Cree un diagrama de objetos que muestre las instancias de `Libro`, `Revista`, `Cliente`, y `Pedido` creadas en el método `main`. Por lo menos tres objetos por clase, excepto del main.
    - Modele la asociación entre los objetos en esta ejecución (por ejemplo, el `pedido1` está asociado a una instancia de `Libro` y a una instancia de `Cliente`).
 
-## Entrega:
+## Entrega
 - Los estudiantes deberán entregar:
    - Un diagrama de **clases UML** que represente la estructura del código con herencia y asociaciones.
    - Un diagrama de **objetos UML** que modele las instancias de los objetos en el método `main`.
    - Adjuntar una explicación breve justificando las relaciones y decisiones de modelado.
 - Pantallazos con el código funcionando. Realizar algunas pruebas
 
-## Criterios de Evaluación:
+## Criterios de Evaluación
 
 1. **Claridad y precisión del diagrama de clases** (40%):
    - Identificación correcta de las relaciones de herencia y asociación.
@@ -148,10 +156,7 @@ public class Main {
 
 3. **Presentación y justificación del trabajo** (20%):
    - Entrega clara, con diagramas bien estructurados y una explicación coherente.
+::::
 
 ## Conclusión:
 Este taller permite que los estudiantes practiquen la traducción de un código Java con relaciones de herencia y asociación a diagramas UML de clases y objetos, desarrollando habilidades clave para el diseño y comprensión de sistemas orientados a objetos.
-
-## Referencias:
-- Gamma, Erich, et al. *Design Patterns: Elements of Reusable Object-Oriented Software*. Addison-Wesley, 1994.
-- Fowler, Martin. *UML Distilled: A Brief Guide to the Standard Object Modeling Language*. Addison-Wesley Professional, 2003.

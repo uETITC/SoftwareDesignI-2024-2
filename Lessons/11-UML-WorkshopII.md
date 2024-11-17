@@ -1,21 +1,8 @@
-# Taller: Modelado de un Sistema de Gestión de Transporte Público en Bogotá
+# Taller
 
----
+## Tema Principal
 
-- [Taller: Modelado de un Sistema de Gestión de Transporte Público en Bogotá](#taller-modelado-de-un-sistema-de-gestión-de-transporte-público-en-bogotá)
-  - [Contexto](#contexto)
-  - [Objetivo del Taller](#objetivo-del-taller)
-  - [Problema a Resolver](#problema-a-resolver)
-  - [Instrucciones:](#instrucciones)
-    - [1. Implementación en Java](#1-implementación-en-java)
-    - [2. Diagrama de Clases](#2-diagrama-de-clases)
-    - [3. Diagrama de Objetos](#3-diagrama-de-objetos)
-    - [4. Diagrama de Casos de Uso](#4-diagrama-de-casos-de-uso)
-    - [5. Entrega del Taller](#5-entrega-del-taller)
-  - [Criterios de Calificación](#criterios-de-calificación)
-
-
----
+Modelado de un Sistema de Gestión de Transporte Público en Bogotá, trasmilenio.
 
 ## Contexto
 Bogotá, como una de las ciudades más grandes de Colombia, enfrenta diariamente desafíos en su sistema de transporte público. El sistema TransMilenio, junto con buses zonales y otros modos de transporte, se utiliza para movilizar a millones de personas. Sin embargo, uno de los principales problemas es la falta de un sistema eficiente de gestión de rutas y disponibilidad de buses. Como diseñadores de software, el reto es modelar un sistema que permita optimizar la gestión del transporte público para hacer más eficiente el uso de rutas, controlar la disponibilidad de buses y mejorar la experiencia de los usuarios.
@@ -171,7 +158,11 @@ Elabora un **diagrama de casos de uso** que describa los principales actores y f
 - Usa relaciones de extensión e inclusión cuando sea necesario.
 
 
-### 5. Entrega del Taller
+## Ejercicio
+
+::::{admonition} Taller 6
+Deben resolver todo el taller.
+### Entregables
 
 1. **Diagramas UML:**
    - Debes entregar los diagramas de casos de uso, clases y objetos en formato gráfico. Puedes usar herramientas como [Lucidchart](https://www.lucidchart.com/pages/), Draw.io o cualquier otra herramienta de modelado UML.
@@ -182,8 +173,9 @@ Elabora un **diagrama de casos de uso** que describa los principales actores y f
 3. **Reporte Final:**
    - El reporte debe incluir una breve explicación de los diagramas UML creados y una descripción del funcionamiento del código desarrollado. Asegúrate de discutir cómo se relacionan los diagramas UML con el código implementado.
 
->[!NOTE]
->La entrega debe hacerse por el campus en la actividad correspondiente a este tema, diagramas UML.
+:::{note}
+La entrega debe hacerse por el campus en la actividad correspondiente a este tema, diagramas UML.
+:::
 
 ## Criterios de Calificación
 
@@ -191,3 +183,5 @@ Elabora un **diagrama de casos de uso** que describa los principales actores y f
 - **Correctitud del código (40%)**: Se evaluará si el código cumple con las funcionalidades solicitadas, incluyendo la asignación de conductores y la gestión del estado de los buses.
 - **Documentación y presentación (20%)**: El reporte debe estar bien escrito y documentado, explicando cómo se implementó el sistema.
 - **Creatividad y profundidad (10%)**: Se valorarán soluciones creativas y extensiones adicionales que enriquezcan el sistema.
+
+::::

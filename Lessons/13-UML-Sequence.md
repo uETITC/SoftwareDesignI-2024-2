@@ -1,22 +1,4 @@
-# Diagramas de Secuencia - UML
-
----
-
-- [Diagramas de Secuencia - UML](#diagramas-de-secuencia---uml)
-  - [Introducción](#introducción)
-  - [Objetivos de la Clase](#objetivos-de-la-clase)
-  - [1. Definición de Diagrama de Secuencia](#1-definición-de-diagrama-de-secuencia)
-  - [2. Propiedades de los Diagramas de Secuencia](#2-propiedades-de-los-diagramas-de-secuencia)
-  - [3. Sintaxis de los Diagramas de Secuencia](#3-sintaxis-de-los-diagramas-de-secuencia)
-  - [4. Usos de los Diagramas de Secuencia](#4-usos-de-los-diagramas-de-secuencia)
-  - [Actividad Práctica: Creación de un Diagrama de Secuencia](#actividad-práctica-creación-de-un-diagrama-de-secuencia)
-    - [Instrucciones](#instrucciones)
-  - [Referencias](#referencias)
-    - [Libros](#libros)
-    - [Guías y Tutoriales](#guías-y-tutoriales)
-
-
----
+# Diagramas de Secuencia
 
 ## Introducción
 
@@ -32,7 +14,9 @@ En el diseño de software, los diagramas de secuencia juegan un papel fundamenta
 
 ## 1. Definición de Diagrama de Secuencia
 
-[![UML Sqeuence](https://img.youtube.com/vi/pCK6prSq8aw/hqdefault.jpg)](https://www.youtube.com/watch?v=pCK6prSq8aw)
+<div align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/pCK6prSq8aw?si=pdYLSStCYfSZcmTj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 Los diagramas de secuencia son un tipo de diagrama de interacción en UML que muestran cómo los objetos de un sistema se comunican mediante una secuencia temporal de mensajes. Cada diagrama representa una instancia específica del flujo de mensajes en respuesta a un evento en particular, detallando el orden en que estos mensajes son enviados y recibidos.
 
@@ -48,9 +32,13 @@ Los diagramas de secuencia poseen características específicas que facilitan su
 - **Banda de actores o roles:** Cada actor u objeto tiene su propio carril en el diagrama, mostrando claramente su rol en la secuencia de eventos.
 - **Componentes opcionales:** Se pueden incluir marcos condicionales y de bucle para ilustrar decisiones y repeticiones en la secuencia.
 
-<div align="center">
-  <img src="./images/Figure5.43.png" width="90%">
-</div>
+:::{figure} ../../images/Figure5.43.png
+---
+width: 60%
+name: 
+---
+Tipos de mensajes y notación.
+:::
 
 ## 3. Sintaxis de los Diagramas de Secuencia
 
@@ -65,9 +53,13 @@ A continuación, se describen los elementos básicos de la sintaxis en diagramas
 - **Cuadros de Activación:** Rectángulos estrechos en la línea de vida que indican cuándo un objeto está activo realizando una acción.
 - **Bloques condicionales y de bucle:** Enmarcados por etiquetas como `alt`, `opt` o `loop`, muestran bifurcaciones y repeticiones en el flujo.
 
-<div align="center">
-  <img src="./images/Figure5.45.png" width="90%">
-</div>
+:::{figure} ../../images/Figure5.45.png
+---
+width: 100%
+name: 
+---
+Ejemplo de diagrama de secuencia sobre un invernadero pequeño.
+:::
 
 ## 4. Usos de los Diagramas de Secuencia
 
@@ -94,14 +86,7 @@ Para aplicar lo aprendido, selecciona un caso de uso simple de una aplicación d
    - Incluye un bucle que simule la notificación de “escribiendo” mientras el usuario redacta el mensaje.
 
 
-## Referencias
-
-### Libros
-
-- Booch, Grady_Maksimchuk, Robert A_Engle, Michael W_Young, Bobbi. *Object-oriented analysis and design with applications*. Tercera edición, 2007. Addison-Wesley Professional.
-- Fowler, M. (2003). *UML Distilled: A Brief Guide to the Standard Object Modeling Language*. Addison-Wesley.
-
-### Guías y Tutoriales
+## Recursos Adicionales
 
 - [UML Sequence Diagrams - UML 2.5](https://www.uml-diagrams.org/sequence-diagrams.html)
 - OMG (2021). *Unified Modeling Language (UML)*. [https://www.omg.org/spec/UML/](https://www.omg.org/spec/UML/)

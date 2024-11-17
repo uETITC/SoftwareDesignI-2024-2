@@ -1,31 +1,4 @@
-# Fundamentos del Diseño de Software II
-
----
-
-
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=4 orderedList=false} -->
-
-<!-- code_chunk_output -->
-
-- [Fundamentos del Diseño de Software II](#fundamentos-del-diseño-de-software-ii)
-  - [Objetivo](#objetivo)
-  - [1. Lenguajes de Programación](#1-lenguajes-de-programación)
-    - [Interpretado vs Compilado](#interpretado-vs-compilado)
-    - [Tipos de Lenguajes](#tipos-de-lenguajes)
-  - [2. Evolución de los Lenguajes de Programación](#2-evolución-de-los-lenguajes-de-programación)
-  - [3. Complejidad del Diseño de Software](#3-complejidad-del-diseño-de-software)
-    - [Los 5 Atributos de un Sistema Complejo](#los-5-atributos-de-un-sistema-complejo)
-    - [Complejidad Organizada y Desorganizada](#complejidad-organizada-y-desorganizada)
-  - [4. Herramientas para el Manejo de la Complejidad en el Diseño de Software](#4-herramientas-para-el-manejo-de-la-complejidad-en-el-diseño-de-software)
-  - [5. Paradigmas de Programación/Diseño de Software](#5-paradigmas-de-programacióndiseño-de-software)
-  - [6. Conclusión](#6-conclusión)
-  - [Referencias](#referencias)
-      - [Libros](#libros)
-    - [Guias](#guias)
-
-<!-- /code_chunk_output -->
-
----
+# Conceptos Básicos
 
 ## Objetivo
 
@@ -36,63 +9,74 @@ Proporcionar a los estudiantes una comprensión profunda de la complejidad inher
 
 ### Interpretado vs Compilado
 
-<center>
-<table>
-<tr>
-    <th> Definición </th>
-    <th> Tabla Comparativa </th>
-</tr>
-<tr>
-<td>
+::::{grid}
 
-[![Interpreted vs Compiled](https://img.youtube.com/vi/1OukpDfsuXE/hqdefault.jpg)](https://www.youtube.com/watch?v=1OukpDfsuXE)
-
-</td>
-<td>
-
-[![Interpreted vs Compiled](https://img.youtube.com/vi/I1f45REi3k4/hqdefault.jpg)](https://www.youtube.com/watch?v=I1f45REi3k4)
-
-</td>
-</tr>
-</table>
-</center>
-
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+<p align="center">
+<iframe width="100%" height="280px" src="https://www.youtube.com/embed/1OukpDfsuXE?si=yg0YSkI8v0IDg6fa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+:::
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 6
+<p align="center">
+<iframe width="100%" height="280px" src="https://www.youtube.com/embed/I1f45REi3k4?si=1rpdCBvP4TDoyz-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+:::
+::::
 
 ### Tipos de Lenguajes
 
+:::{figure} https://cdn.educba.com/academy/wp-content/uploads/2020/01/Types-of-Computer-Languages.jpg.webp
+---
+name: tiposlenguajes
+width: 80%
+---
+Tipos de lenguajes de computación. Tomado de [Types of Computer Language](https://www.educba.com/types-of-computer-language/).
+:::
 
 
-<div align="center">
-<a href="https://www.educba.com/types-of-computer-language/"><img src="https://cdn.educba.com/academy/wp-content/uploads/2020/01/Types-of-Computer-Languages.jpg.webp" alt="HTML tutorial" style="width:80%"></a>
-</div>
+::::{grid}
 
-[Types of Computer Language](https://www.educba.com/types-of-computer-language/)
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 5
 
-<div align="center">
-  <img src="./images/high.png" alt="HTML tutorial" style="width:40%">
-</div>
-<div align="center">
+```{figure} ../../images/high.png
+---
+name: high
+width: 90%
+---
+Línea de tiempo de los lenguajes de programación de alto nivel.
+```
 
-[![Software Design](https://img.youtube.com/vi/qQXXI5QFUfw/hqdefault.jpg)](https://www.youtube.com/watch?v=qQXXI5QFUfw)
+:::
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 7
 
-</div>
+```{figure} ../../images/classification.png
+---
+name: clasificacion
+width: 100%
+---
+Clasificación de los lenguajes de programación. Tomado de [Evolution and History of Programming Languages](https://www.slideserve.com/hbosley/evolution-and-history-of-programming-languages-powerpoint-ppt-presentation).
+```
+:::
+::::
 
-[Programming](https://www.cs.princeton.edu/courses/archive/fall09/cos109/06langs.pdf)
+### Lenguajes de Programación Populares
 
-
-<div align="center">
-  <img src="./images/classification.png" alt="HTML tutorial" style="width:60%">
-</div>
-[Evolution and History of Programming Languages](https://www.slideserve.com/hbosley/evolution-and-history-of-programming-languages-powerpoint-ppt-presentation)
-
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/qQXXI5QFUfw?si=4nkqmNLork0akswb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
 
 
 ## 2. Evolución de los Lenguajes de Programación
 
 La evolución de los lenguajes de programación ha estado marcada por la necesidad de manejar la creciente complejidad en el desarrollo de software. Desde los primeros lenguajes de bajo nivel hasta los modernos lenguajes orientados a objetos y funcionales, cada etapa ha introducido características que permiten a los desarrolladores abordar problemas más complejos de manera más eficiente.
-
-
-
 
 - **Lenguajes de Bajo Nivel:**
   - **Assembly:** Lenguaje muy cercano al lenguaje máquina, con un enfoque en la eficiencia y el control detallado del hardware.
@@ -107,12 +91,10 @@ La evolución de los lenguajes de programación ha estado marcada por la necesid
   - **Kotlin:** Un lenguaje moderno que se ejecuta en la JVM y mejora muchas de las limitaciones de Java, con una sintaxis más concisa y características como la nulabilidad controlada.
   - **Rust:** Un lenguaje de sistemas que prioriza la seguridad y el rendimiento, evitando errores comunes como punteros nulos y condiciones de carrera.
 
-
-<div align="center">
-
-[![Software Design](https://img.youtube.com/vi/mhpslN-OD_o/hqdefault.jpg)](https://www.youtube.com/watch?v=mhpslN-OD_o)
-
-</div>
+<p align="center">
+<iframe width="80%" height="420px" src="https://www.youtube.com/embed/mhpslN-OD_o?si=rnIKa3qVrQXbb6yx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+</p>
 
 ## 3. Complejidad del Diseño de Software
 
@@ -128,48 +110,82 @@ El diseño de software es una tarea intrínsecamente compleja, ya que implica la
   - **Escalabilidad y rendimiento:** Diseñar software que sea eficiente y escalable introduce desafíos adicionales.
   - **Mantenibilidad:** El software debe ser fácil de modificar, corregir y mejorar sin introducir errores.
 
+::::{important}
 ¡Nuestro objetivo es ver que parece fácil!
 
-<div align="center">
-  <img src="./images/make_it_simple.png" alt="HTML tutorial" style="width:80%">
-</div>
+:::{figure} ../../images/make_it_simple.png
+---
+name: makeitsimple
+width: 80%
+---
+¡Que parezca fácil!
+:::
+::::
 
->[!IMPORTANT]
->En ciencias de la computaci´on definiremos **mantenimiento** cuando corregimos errores, **evolución** cuando respondemos a requisitos cambiantes, y **preservación** cuando seguimos utilizando medios extraordinarios para mantener en funcionamiento un software antiguo y decadente.
+
+:::{note}
+En ciencias de la computación definiremos **mantenimiento** cuando corregimos errores, **evolución** cuando respondemos a requisitos cambiantes, y **preservación** cuando seguimos utilizando medios extraordinarios para mantener en funcionamiento un software antiguo y decadente.
+:::
 
 ### Los 5 Atributos de un Sistema Complejo 
 
-- **Estructura Jerarquía**
+#### Estructura Jerarquía
 
-  <div align="center">
-    <img src="./images/complex.png" alt="HTML tutorial" style="width:100%">
-  </div>
+:::{figure} ../../images/complex.png
+---
+name: complex
+width: 80%
+---
+Jerarquía en los componentes.
+:::
+  
+:::{note}
+*Con frecuencia, la complejidad adopta la forma de una jerarquía, según la cual un sistema complejo se compone de subsistemas interrelacionados que a su vez tienen sus propios subsistemas, y así sucesivamente, hasta llegar a algún nivel inferior de componentes elementales.*
+:::
 
-  >*Con frecuencia, la complejidad adopta la forma de una jerarquía, según la cual un sistema complejo se compone de subsistemas interrelacionados que a su vez tienen sus propios subsistemas, y así sucesivamente, hasta llegar a algún nivel inferior de componentes elementales.*
+#### Primitivos Relativos
 
-- **Primitivos Relativos**
+*La elección de los componentes primitivos de un sistema es relativamente arbitraria y depende en gran medida del criterio del observador del sistema.*
 
-  >*La elección de los componentes primitivos de un sistema es relativamente arbitraria y depende en gran medida del criterio del observador del sistema.*
+#### Separación de Preocupaciones/Intereses
 
-- **Separación de Preocupaciones/Intereses**
+*Los vínculos intracomponentes suelen ser más fuertes que los intercomponentes. Este hecho tiene el efecto de separar la dinámica de alta frecuencia de los componentes -que implica la estructura interna de los componentes- de la dinámica de baja frecuencia -que implica la interacción entre los componentes.*
 
-  >*Los vínculos intracomponentes suelen ser más fuertes que los intercomponentes. Este hecho tiene el efecto de separar la dinámica de alta frecuencia de los componentes -que implica la estructura interna de los componentes- de la dinámica de baja frecuencia -que implica la interacción entre los componentes.*
+#### Patrones Comunes
 
-- **Patrones Comunes**
-  >*Los sistemas jerárquicos suelen estar compuestos por unos pocos tipos de subsistemas en diversas combinaciones y disposiciones.*
+*Los sistemas jerárquicos suelen estar compuestos por unos pocos tipos de subsistemas en diversas combinaciones y disposiciones.*
 
-- **Formas Intermedias Estables**
-  >*Un sistema complejo que funciona evoluciona invariablemente a partir de un sistema simple que funcionaba. . . . Un sistema complejo diseñado desde cero nunca funciona y no se puede parchear para que funcione. Hay que empezar de nuevo, partiendo de un sistema simple que funcione.*
+#### Formas Intermedias Estables
+
+*Un sistema complejo que funciona evoluciona invariablemente a partir de un sistema simple que funcionaba. . . . Un sistema complejo diseñado desde cero nunca funciona y no se puede parchear para que funcione. Hay que empezar de nuevo, partiendo de un sistema simple que funcione.*
 
 ### Complejidad Organizada y Desorganizada
 
-<div align="center">
-    <img src="./images/herarquia.png" alt="HTML tutorial" style="width:70%">
-</div>
+::::{grid}
 
-<div align="center">
-    <img src="./images/canonical.png" alt="HTML tutorial" style="width:70%">
-  </div>
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 7
+```{figure} ../../images/herarquia.png
+---
+name: herarquia
+width: 100%
+---
+Jerarquía en sistemas complejos.
+```
+:::
+:::{grid-item}
+:margin: auto auto 0 0
+:columns: 5
+```{figure} ../../images/canonical.png
+---
+name: canonical
+width: 100%
+---
+La forma canónica de los sistemas complejos.
+```
+:::
+::::
 
 ## 4. Herramientas para el Manejo de la Complejidad en el Diseño de Software
 
@@ -195,8 +211,6 @@ Para manejar la complejidad en el diseño de software, se pueden utilizar divers
 - **Técnicas de Refactorización:**
   - **Refactorización:** El proceso de mejorar el diseño de código existente sin cambiar su comportamiento externo. Ejemplos incluyen la extracción de métodos, eliminación de duplicaciones y mejora de nombres de variables y métodos.
 
-
-
 ## 5. Paradigmas de Programación/Diseño de Software
 
 Los paradigmas de programación son estilos o enfoques que guían el diseño y la estructura del código. Cada paradigma tiene sus propias fortalezas y es adecuado para ciertos tipos de problemas.
@@ -216,13 +230,13 @@ Los paradigmas de programación son estilos o enfoques que guían el diseño y l
 - **Programación Orientada a Aspectos:**
   - Facilita la separación de preocupaciones transversales como el registro de logs, la gestión de transacciones y la seguridad. AspectJ es un ejemplo de implementación de este paradigma.
 
-<div align="center">
-<a href="https://medium.com/@jepozdemir/programming-language-categories-6b786d70e8f7"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*649U3qti_ZECk1S8umaf3A.jpeg" alt="HTML tutorial" style="width:60%"></a>
-</div>
-
-[Programming Language Categories](https://medium.com/@jepozdemir/programming-language-categories-6b786d70e8f7)
-
-
+:::{figure} https://miro.medium.com/v2/resize:fit:720/format:webp/1*649U3qti_ZECk1S8umaf3A.jpeg
+---
+name: tiposlenguajes
+width: 60%
+---
+Tipos de lenguajes de programación. Tomado de [Programming Language Categories](https://medium.com/@jepozdemir/programming-language-categories-6b786d70e8f7).
+:::
 
 ## 6. Conclusión
 
@@ -230,14 +244,8 @@ La complejidad en el diseño de software es un desafío central en el desarrollo
 
 En resumen, el dominio del diseño de software requiere una comprensión profunda de las herramientas y metodologías disponibles, así como la habilidad para aplicarlas en contextos reales. Los conceptos y enfoques explorados en esta clase son esenciales para que los estudiantes enfrenten con éxito los desafíos que surgen en proyectos de software complejos, permitiéndoles construir soluciones robustas y sostenibles.
 
+## Recursos Adicionales
 
-## Referencias
-
-#### Libros
-  - Erich Gamma, Richard Helm, Ralph Johnson, y John Vlissides. *Design Patterns: Elements of Reusable Object-Oriented Software.*.
-  - Grady Booch, Robert A. Maksimchuk, Michael W. Engel, Bobbi J. Young, Jim Conallen, Kelli A. Houston. *Object-oriented analysis and design with applications.* Addison-Wesley 2007, 3ra edición.
-  - [On the Evolution of Programming Languages](https://arxiv.org/pdf/2007.02699)
-
-### Guias 
-
-  - [COS 301 - 2018UMaine School of Computing and Information Science - Evolution of the Major - Programming Languages](http://mainesail.umcs.maine.edu/COS301/schedule/slides/02-evolution-slides.pdf)
+- [On the Evolution of Programming Languages](https://arxiv.org/pdf/2007.02699)
+- [COS 301 - 2018UMaine School of Computing and Information Science - Evolution of the Major - Programming Languages](http://mainesail.umcs.maine.edu/COS301/schedule/slides/02-evolution-slides.pdf)
+- [Programming](https://www.cs.princeton.edu/courses/archive/fall09/cos109/06langs.pdf)
