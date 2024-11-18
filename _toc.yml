@@ -30,6 +30,7 @@ parts:
     - file: Lessons/13-UML-Sequence.md
     - file: Lessons/14-UML-State.md
     - file: Lessons/15-UML-Colaboration.md
+    - file: Lessons/16-UML-Implementation.md
   - caption: "Examenes"
     numbered: false
     chapters:

@@ -21,14 +21,14 @@ El tiempo está implícito en los diagramas de secuencia (se deduce por la posic
 
 En otras palabras, la principal diferencia entre los diagramas de comunicación y los diagramas de secuencia es que los diagramas de secuencia son buenos para mostrar la lógica secuencial, pero no son tan buenos para ofrecer una «visión global», mientras que los diagramas de comunicación son exactamente lo contrario.
 
-## Propiedades de los Diagramas de Colaboración
+## Propiedades
 
 1. **Enfoque en la Estructura**: Los diagramas de colaboración representan cómo los objetos están organizados y cómo se comunican para alcanzar un objetivo específico.
 2. **Interacciones entre Objetos**: Muestran los mensajes que se envían entre objetos, indicando el flujo de información en el sistema.
 3. **Número de Referencias**: Cada línea de interacción tiene un número que indica la secuencia de mensajes, aunque no es el enfoque principal del diagrama.
 4. **Relaciones Estructurales**: Ponen énfasis en los vínculos entre los objetos y su colaboración, destacando cómo estos vínculos soportan el flujo de mensajes.
 
-## Sintaxis de los Diagramas de Colaboración
+## Sintaxis
 
 La sintaxis básica de los diagramas de colaboración incluye:
 
@@ -44,7 +44,7 @@ Pedido:ClasePedido -> Cliente:ClaseCliente
 3: procesarPago()
 ```
 
-## Usos de los Diagramas de Colaboración
+## Usos
 
 Los diagramas de colaboración son especialmente útiles en:
 
@@ -53,7 +53,8 @@ Los diagramas de colaboración son especialmente útiles en:
 3. **Diseño de Sistemas Orientados a Objetos**: Facilitan la identificación de relaciones entre objetos en la fase de diseño.
 4. **Simulación de Escenarios de Negocio**: Permiten modelar procesos empresariales donde diferentes actores colaboran y se comunican para cumplir un objetivo común.
 
-## Implementación de un Diagrama de Colaboración en Código Java
+(codigo)=
+## Ejemplo Código Java
 
 Aunque los diagramas de colaboración no tienen una traducción directa en código, el siguiente ejemplo en Java representa la interacción entre objetos en un sistema de gestión de pedidos:
 
@@ -111,13 +112,15 @@ En este ejemplo, los objetos `Cliente`, `Pedido`, e `Inventario` interactúan pa
 
 ## Ejercicio
 
-Agreguen 3 clases más al código anterior. Después, utilizando el código completo deben crear un proceso que utilice todas las clases a un problema que propongan que sea coherente con el código. Este problema debe constar de mínimo 5 caminos, el diagrama debe llegar a utilizar el número 5, que sean coherentes.
+:::{admonition} Taller
+Agreguen 3 clases más al código anterior, [ejemplo](codigo). Después, utilizando el código completo deben crear un proceso que utilice todas las clases a un problema que propongan que sea coherente con el código. Este problema debe constar de mínimo 5 caminos, el diagrama debe llegar a utilizar el número 5, que sean coherentes.
 
 Además, es necesario agregar una descripción corta sobre cuál es el problema que se esta solucionando.
 
 **Entregables**
 
 Archivo markdown con la descripción y diagrama de comunicación.
+:::
 
 ## Conclusiones
 

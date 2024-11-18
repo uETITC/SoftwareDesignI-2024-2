@@ -12,7 +12,7 @@ En el diseño de software, los diagramas de secuencia juegan un papel fundamenta
 4. Desarrollar habilidades para diseñar diagramas de secuencia en casos prácticos.
 5. Familiarizarse con el uso de herramientas digitales para la creación de diagramas de secuencia.
 
-## 1. Definición de Diagrama de Secuencia
+## 1. Definición
 
 <div align="center">
 <iframe width="80%" height="420px" src="https://www.youtube.com/embed/pCK6prSq8aw?si=pdYLSStCYfSZcmTj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -22,7 +22,7 @@ Los diagramas de secuencia son un tipo de diagrama de interacción en UML que mu
 
 Estos diagramas son ampliamente utilizados para visualizar casos de uso complejos, ya que descomponen el flujo de trabajo en una serie de pasos claros y estructurados.
 
-## 2. Propiedades de los Diagramas de Secuencia
+## 2. Propiedades
 
 Los diagramas de secuencia poseen características específicas que facilitan su interpretación:
 
@@ -40,7 +40,7 @@ name:
 Tipos de mensajes y notación.
 :::
 
-## 3. Sintaxis de los Diagramas de Secuencia
+## 3. Sintaxis
 
 A continuación, se describen los elementos básicos de la sintaxis en diagramas de secuencia:
 
@@ -61,7 +61,7 @@ name:
 Ejemplo de diagrama de secuencia sobre un invernadero pequeño.
 :::
 
-## 4. Usos de los Diagramas de Secuencia
+## 4. Usos
 
 Los diagramas de secuencia son útiles para diversas etapas de desarrollo de software:
 
@@ -70,9 +70,9 @@ Los diagramas de secuencia son útiles para diversas etapas de desarrollo de sof
 - **Diseño de componentes y servicios:** Visualizan la interacción entre componentes en sistemas distribuidos, mostrando cómo los servicios se comunican en tiempo real.
 - **Depuración y documentación:** Facilitan la identificación de posibles problemas en la comunicación entre componentes, especialmente en sistemas concurrentes.
 
-## Actividad Práctica: Creación de un Diagrama de Secuencia
+## Ejercicio
 
-### Instrucciones
+:::{admonition} Taller
 
 Para aplicar lo aprendido, selecciona un caso de uso simple de una aplicación de mensajería, como enviar un mensaje directo a otro usuario. Desarrolla un diagrama de secuencia que cumpla con los siguientes pasos:
 
@@ -84,7 +84,7 @@ Para aplicar lo aprendido, selecciona un caso de uso simple de una aplicación d
 3. **Incorporación de Bloques Opcionales y Bucles:**
    - Agrega un bloque condicional para verificar si el destinatario está en línea o no.
    - Incluye un bucle que simule la notificación de “escribiendo” mientras el usuario redacta el mensaje.
-
+:::
 
 ## Recursos Adicionales
 

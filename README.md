@@ -60,7 +60,7 @@ At the end of the course the student will be able to:
   - 10 %
 * - Final
   - 02/12/2024
-  - 10 %
+  - 80 %
 ```
 :::
 ::::
@@ -93,11 +93,11 @@ Brayan Franco
 ::::{grid}
 :gutter: 2
 
-:::{grid-item-card} [ETITC Parking](https://github.com/BRAYAM23)
+:::{grid-item-card} [ETITC Parking](https://github.com/BRAYAM23/PARQUEADERO-ETITC)
 Brayam Sierra
 :::
 
-:::{grid-item-card} [ETITC Restaurante](https://github.com/camila2perez)
+:::{grid-item-card} [ETITC Restaurante](https://github.com/camila2perez/Restaurante_Etitc.)
 Laura Puentes
 :::
 :::: 

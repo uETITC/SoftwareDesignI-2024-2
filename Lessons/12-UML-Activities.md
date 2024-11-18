@@ -59,7 +59,7 @@ Inicio → Selección de productos → [Carrito lleno?] → Agregar al carrito �
 
 Este ejemplo ilustra un proceso donde el usuario puede decidir agregar más productos o proceder con el pago, y el sistema decide si el pago fue exitoso para continuar con la confirmación.
 
-## Ejercicio Práctico: Diagrama de Actividades para un Sistema de Cinema
+## Ejercicio Práctico: Sistema de Cinema
 
 Se te ha asignado la tarea de diseñar un **sistema de cine** que permita gestionar las reservas de boletos de cine para diferentes funciones. El sistema debe contemplar los siguientes pasos desde la perspectiva del cliente:
 
@@ -86,7 +86,7 @@ Tu tarea es modelar este flujo en un **diagrama de actividades UML**. Debes iden
 4. Utilizar las **notas UML** cuando sea necesario para explicar ciertas decisiones del diagrama.
 
 
-### Ejemplo de Código Java para Simular el Sistema de Cinema
+### Código Java
 
 Te proporciono un ejemplo de un sistema básico en Java que realiza algunas de las funcionalidades descritas en el problema.
 
@@ -175,7 +175,7 @@ public class CinemaSystem {
 }
 ```
 
-### Consideraciones para el Diagrama de Actividades
+### Consideraciones
 1. **Inicio**: Inicia con la actividad de "Iniciar sesión o Crear cuenta".
 2. **Selección de Película y Función**: Las actividades deben representar la selección de una película y su correspondiente función.
 3. **Selección de Asientos**: Una actividad para la selección de asientos disponibles.

@@ -173,7 +173,7 @@ Deben resolver todo el taller.
 3. **Reporte Final:**
    - El reporte debe incluir una breve explicación de los diagramas UML creados y una descripción del funcionamiento del código desarrollado. Asegúrate de discutir cómo se relacionan los diagramas UML con el código implementado.
 
-:::{note}
+:::{important}
 La entrega debe hacerse por el campus en la actividad correspondiente a este tema, diagramas UML.
 :::
 

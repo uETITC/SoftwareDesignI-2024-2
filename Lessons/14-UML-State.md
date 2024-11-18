@@ -22,7 +22,7 @@ Los diagramas de estado pueden modelar no solo el comportamiento interno de un o
 
 </div>
 
-## Propiedades de un Diagrama de Estado
+## Propiedades
 
 1. **Estado**: Representa una situación en la que un objeto cumple ciertas condiciones, realiza ciertas actividades o espera un evento.
 2. **Transición**: Es el cambio de un estado a otro debido a un evento. Se representa con una flecha que conecta los estados.
@@ -30,7 +30,7 @@ Los diagramas de estado pueden modelar no solo el comportamiento interno de un o
 4. **Acción**: Una tarea o actividad que se ejecuta durante una transición o en un estado específico.
 5. **Estado Inicial y Estado Final**: El estado inicial es donde comienza el diagrama, y el estado final indica dónde termina el comportamiento modelado.
 
-## Sintaxis de un Diagrama de Estado
+## Sintaxis
 
 En un diagrama de estado, la sintaxis se basa en los siguientes elementos básicos:
 
@@ -49,14 +49,14 @@ Estado1 --Evento1--> Estado2
 Estado2 --Evento2--> Estado Final
 ```
 
-## Usos de un Diagrama de Estado
+## Usos
 
 - **Modelado del ciclo de vida de un objeto**: Útil para objetos que tienen estados bien definidos, como transacciones bancarias, procesos de pedido en línea, y sistemas de control de acceso.
 - **Representación de sistemas de control**: Ideal para sistemas que dependen de estados y eventos, como una máquina de vending o un semáforo.
 - **Simulación de flujo de trabajo**: Facilita la representación de procesos que involucran varios estados, como el flujo de aprobación de documentos o el procesamiento de solicitudes.
 - **Definición de comportamiento de interfaces de usuario**: Ayuda a modelar cómo la interfaz cambia en respuesta a acciones del usuario.
 
-## Ejemplo de Diagrama de Estado para una Orden de Compra
+## Ejemplo: Orden de Compra
 
 Imaginemos un sistema de e-commerce que procesa órdenes de compra. Los estados de la orden podrían incluir:
 
@@ -84,13 +84,15 @@ Orden en proceso --Cancelar Orden--> Orden cancelada
 Orden enviada --Cancelar Orden--> Orden cancelada
 ```
 
-## Actividad Práctica
+## Ejercicio
 
+:::{admonition} Taller
 1. **Definir un caso de estudio**: Elige un objeto que cambie de estado en un contexto de negocio (por ejemplo, "Reserva de Hotel" o "Solicitud de Empleo").
 2. **Identificar estados y transiciones**: Lista los estados que puede tener el objeto a lo largo de su ciclo de vida, así como los eventos que provocan cambios.
 3. **Dibujar el diagrama de estado**: Representa el ciclo de vida del objeto utilizando los elementos básicos de UML.
 4. **Añadir detalles**: Identifica y añade eventos y acciones específicas en cada transición o estado, si es necesario.
 5. **Explicar el flujo**: Describe el flujo completo, asegurándote de que los eventos y transiciones representen el comportamiento del objeto de forma coherente.
+:::
 
 ## Conclusión
 

@@ -3,18 +3,16 @@
 ## Objetivo
 Entender los **Diagramas de Objetos** dentro del contexto de UML (Lenguaje de Modelado Unificado), su definición, propiedades, sintaxis, y los usos comunes en el diseño de software. Aprenderemos cómo representan instancias de clases en un momento específico y cómo son útiles para visualizar el estado de un sistema.
 
-## Diagrama de Objetos
-
-### Definición
+## Definición
 Un **diagrama de objetos** en UML es una representación gráfica que muestra instancias concretas de clases (objetos) en un sistema, junto con los valores de sus atributos en un instante particular. Mientras que un **diagrama de clases** describe la estructura estática de un sistema (clases, atributos y métodos), el diagrama de objetos muestra una instantánea del sistema en ejecución, con instancias específicas de esas clases.
 
-### Propiedades de los Diagramas de Objetos
+## Propiedades
 - **Especificidad**: Muestra un conjunto concreto de objetos y las relaciones entre ellos en un momento determinado.
 - **Temporalidad**: Los diagramas de objetos representan una "instantánea" del estado de los objetos en tiempo de ejecución.
 - **Similitud con los Diagramas de Clases**: Los objetos mostrados en estos diagramas corresponden a clases en un diagrama de clases, pero con valores asignados a sus atributos.
 - **Representación de Relaciones**: Permiten visualizar las asociaciones, agregaciones o composiciones entre objetos, tal como se modelaron en el diagrama de clases.
 
-### Sintaxis de los Diagramas de Objetos
+## Sintaxis
 La **sintaxis básica** de un diagrama de objetos en UML se asemeja a la de los diagramas de clases, pero en lugar de mostrar clases, muestra instancias de esas clases. Los principales componentes de la sintaxis incluyen:
 
 1. **Objetos**: Se representan con un rectángulo, que tiene el siguiente formato:
@@ -34,7 +32,7 @@ La **sintaxis básica** de un diagrama de objetos en UML se asemeja a la de los 
 
 3. **Multiplicidad**: En los diagramas de objetos también se puede indicar la multiplicidad de las relaciones, por ejemplo `1..*` para indicar "uno o muchos".
 
-### Ejemplo Sintaxis UML de Objetos:
+## Ejemplo
 
 ```
 pedido1:Pedido       cliente1:Cliente
@@ -46,7 +44,7 @@ total = "$500"
 
 En este ejemplo, `pedido1` es una instancia de la clase `Pedido` y `cliente1` es una instancia de la clase `Cliente`.
 
-### Usos de los Diagramas de Objetos
+### Usos
 Los diagramas de objetos tienen varios usos clave en el diseño de software:
 
 1. **Visualización del Estado del Sistema**: Los diagramas de objetos permiten visualizar cómo se comporta un sistema en un momento específico. Esto puede ser útil para entender cómo interactúan los objetos en un escenario particular.
@@ -165,7 +163,7 @@ public class Pedido {
    - Escribe un breve párrafo explicando los objetos representados, sus relaciones, y el estado del sistema mostrado en el diagrama.
 
 
-### Ejemplo de Diagrama de Objetos en UML
+### Ejemplo de Objetos
 
 #### Instancias
 - `cliente1:Cliente` → nombre: "Juan Pérez", email: "juan.perez@mail.com"
@@ -193,7 +191,7 @@ Los diagramas de objetos son una herramienta importante en UML que permiten ver 
 
 ## Recursos Adicionales
 
-### Guias y Tutoriales
+### Guías y Tutoriales
 
 
 - [UML Class Diagram Tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
