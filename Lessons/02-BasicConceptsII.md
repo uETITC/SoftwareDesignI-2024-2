@@ -111,7 +111,7 @@ El diseño de software es una tarea intrínsecamente compleja, ya que implica la
   - **Mantenibilidad:** El software debe ser fácil de modificar, corregir y mejorar sin introducir errores.
 
 ::::{important}
-¡Nuestro objetivo es ver que parece fácil!
+### ¡Nuestro objetivo es hacer que parezca fácil!
 
 :::{figure} ../../images/make_it_simple.png
 ---
