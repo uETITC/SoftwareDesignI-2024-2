@@ -104,6 +104,13 @@ Laura Puentes
 
 ## References
 
+### Draw Diagrams
+
+- [Lucidchart](https://www.lucidchart.com/pages/)
+- [Draw.io](https://app.diagrams.net/)
+- [PlantUML](https://plantuml.com/)
+- [Mermaid](https://mermaid.js.org/)
+
 ### Repositories
 - [Java Programming: Principles of Software Design](https://www.coursera.org/learn/java-programming-design-principles)
 - [Software Design](https://github.com/prmr/SoftwareDesign)
