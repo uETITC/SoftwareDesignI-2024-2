@@ -31,6 +31,8 @@ parts:
     - file: Lessons/14-UML-State.md
     - file: Lessons/15-UML-Colaboration.md
     - file: Lessons/16-UML-Implementation.md
+      sections: 
+        - file: Lessons/16-Workshop-UML-Deploy.md
   - caption: "Examenes"
     numbered: false
     chapters:
