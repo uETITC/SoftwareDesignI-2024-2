@@ -33,6 +33,7 @@ parts:
     - file: Lessons/16-UML-Implementation.md
       sections: 
         - file: Lessons/16-Workshop-UML-Deploy.md
+    - file: Lessons/17-WorkshopPreExam.md
   - caption: "Examenes"
     numbered: false
     chapters:
@@ -41,4 +42,5 @@ parts:
   - caption: "Proyecto"
     chapters:
     - file: Lessons/ProjectGuideLines.md
+    - file: Lessons/ProjectTemplate.md
 

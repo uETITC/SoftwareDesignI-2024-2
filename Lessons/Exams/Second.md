@@ -1,4 +1,4 @@
-# Segundo
+# 2. Gestión de Animes
 
 ## Tema del Parcial
 

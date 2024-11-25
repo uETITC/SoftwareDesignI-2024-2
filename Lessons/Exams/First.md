@@ -1,4 +1,4 @@
-# Primero
+# 1. Sistema de Gestión de Inventarios
 
 ## Tema del Parcial
 
