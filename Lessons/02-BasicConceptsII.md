@@ -14,16 +14,20 @@ Proporcionar a los estudiantes una comprensión profunda de la complejidad inher
 :::{grid-item}
 :margin: auto auto 0 0
 :columns: 6
-<p align="center">
+
+<div align="center">
 <iframe width="100%" height="280px" src="https://www.youtube.com/embed/1OukpDfsuXE?si=yg0YSkI8v0IDg6fa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+</div>
+
 :::
 :::{grid-item}
 :margin: auto auto 0 0
 :columns: 6
-<p align="center">
+
+<div align="center">
 <iframe width="100%" height="280px" src="https://www.youtube.com/embed/I1f45REi3k4?si=1rpdCBvP4TDoyz-J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+</div>
+
 :::
 ::::
 
@@ -69,9 +73,9 @@ Clasificación de los lenguajes de programación. Tomado de [Evolution and Histo
 
 ### Lenguajes de Programación Populares
 
-<p align="center">
+<div align="center">
 <iframe width="80%" height="420px" src="https://www.youtube.com/embed/qQXXI5QFUfw?si=4nkqmNLork0akswb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+</div>
 
 
 ## 2. Evolución de los Lenguajes de Programación
@@ -91,10 +95,9 @@ La evolución de los lenguajes de programación ha estado marcada por la necesid
   - **Kotlin:** Un lenguaje moderno que se ejecuta en la JVM y mejora muchas de las limitaciones de Java, con una sintaxis más concisa y características como la nulabilidad controlada.
   - **Rust:** Un lenguaje de sistemas que prioriza la seguridad y el rendimiento, evitando errores comunes como punteros nulos y condiciones de carrera.
 
-<p align="center">
+<div align="center">
 <iframe width="80%" height="420px" src="https://www.youtube.com/embed/mhpslN-OD_o?si=rnIKa3qVrQXbb6yx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
-</p>
+</div>
 
 ## 3. Complejidad del Diseño de Software
 

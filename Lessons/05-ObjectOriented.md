@@ -9,9 +9,9 @@ Al finalizar esta clase, los estudiantes comprenderán los principios fundamenta
 
 El Diseño Orientado a Objetos (OO) es un enfoque de desarrollo de software que organiza el diseño del sistema en torno a "objetos," que son instancias de "clases." Estos objetos encapsulan datos y comportamientos relacionados, y se comunican entre sí mediante métodos.
 
-<p align="center">
+<div align="center">
 <iframe width="80%" height="420px" src="https://www.youtube.com/embed/pTB0EiLXUC8?si=oJSD02ENYkF4dtHz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+</div>
 
 ### Objetos
 

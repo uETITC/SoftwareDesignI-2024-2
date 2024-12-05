@@ -40,6 +40,7 @@ parts:
     - file: Lessons/Exams/First.md
     - file: Lessons/Exams/Second.md
     - file: Lessons/Exams/Third.md
+    - file: Lessons/Exams/Third1.md
   - caption: "Proyecto"
     chapters:
     - file: Lessons/ProjectGuideLines.md
