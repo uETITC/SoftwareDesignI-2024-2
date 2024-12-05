@@ -1,4 +1,4 @@
-# 3. Gestión de Pedidos de Comida
+# Supletorio: Gestión de Pedidos de Comida
 
 ## Introducción
 En este taller, diseñaremos y comprenderemos tres tipos fundamentales de diagramas UML: **diagrama de estado**, **diagrama de despliegue**, y **diagrama de colaboración**, utilizando como caso de estudio un sistema digital de gestión para pedidos de comida. Este sistema permite a los usuarios realizar diversas acciones como seleccionar platillos, realizar pedidos, monitorear el estado de sus órdenes y gestionar sus cuentas. La aplicación opera en una arquitectura distribuida de tres capas, con un servidor central que conecta a una base de datos, accesible desde dispositivos de los usuarios y un sistema de cocina.
